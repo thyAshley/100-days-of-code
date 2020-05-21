@@ -1,17 +1,6 @@
 # 100 Days Of Code - Log
 
-<style>
-    .complete {
-        color: #2ECC71
-    }
-    .inprog {
-        color: #6feaf6
-    }
-    .tbs {
-        color: #303030
 
-    }
-</style>
 **==== GOALS ====** 
 <table>
 <thead>
@@ -21,11 +10,11 @@
 <tbody>
     <tr>
         <td>NodeJS</td>
-        <td class="inprog">In Progress</td>
+        <td">In Progress</td>
     </tr>
     <tr>
         <td>ReactJS</td>
-        <td class="tbs">Not Started</td>
+        <td">Not Started</td>
     </tr>
 </tbody>
 </table>
