@@ -10,11 +10,11 @@
 <tbody>
     <tr>
         <td>NodeJS</td>
-        <td">In Progress</td>
+        <td>In Progress</td>
     </tr>
     <tr>
         <td>ReactJS</td>
-        <td">Not Started</td>
+        <td>Not Started</td>
     </tr>
 </tbody>
 </table>
