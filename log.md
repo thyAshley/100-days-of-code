@@ -1,5 +1,6 @@
 # 100 Days Of Code - Log
 
+This is my progress log for my 100 days of code challenge.  I will update my goals as i progress through learning web development.
 
 **==== GOALS ====** 
 <table>
@@ -23,12 +24,12 @@
 ##### Started the 100 days of code challenge 
 
 **Today's Progress**: 
-- Introduction to NodeJS
-- NodeJS standard libraries (fs, event, util)
-- Learn About Buffer and Streams
-- Read Stream, Write Stream and Piping.
-- Routing with vanilla NodeJS
-- NPM, package.json
+* Introduction to NodeJS
+* NodeJS standard libraries (fs, event, util)
+* Learn About Buffer and Streams
+* Read Stream, Write Stream and Piping.
+* Routing with vanilla NodeJS
+* NPM, package.json
 
 
 **Link(s) to work**
@@ -37,10 +38,29 @@
 # Day 2: May 22, 2020
 
 **Today's Progress**: 
-- Introduction to Express
-- Route Parameters
-- Introduction to Templating Engines, view Engine,  rendering and passing of data. (EJS)
+* Introduction to Express
+* Route Parameters
+* Introduction to Templating Engines with EJS 
+    * View Engine
+    * Rendering 
+    * Passing of data
+    * Partial Templates
+* Middleware and static files
+* Query Strings
+* MVC setup in Express
+* No SQL Database - MongoDB
 
+### Notes
+* Express default views directory should be views. To use another directory instead of the default use express.set('views', __dirname + '/directory name').
+
+* to use a static file location, app.use('route', express.static('folder_name'))
+with this, we can apply css to our html files. By convention, this folder will be called "Public"
+
+* body-parser middleware is now built into express
+
+### Challenges
+
+* Unable to call a delete method from a form, but found a way to use a get request to perform delete operations [not sure if this is the right way]
 
 **Link(s) to work**
 1. [NodeJS Tutorial By NetNinja](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg)
