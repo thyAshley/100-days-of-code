@@ -47,8 +47,11 @@ This is my progress log for my 100 days of code challenge.  I will update my goa
     * Partial Templates
 * Middleware and static files
 * Query Strings
-* MVC setup in Express
 * No SQL Database - MongoDB
+* dotenv library to store secret keys
+* Finish a ToDo-list application using nodejs
+* Finish the NodeJS Tutorial
+* Signed up for more indepth-tutorial [2]
 
 ### Notes
 * Express default views directory should be views. To use another directory instead of the default use express.set('views', __dirname + '/directory name').
@@ -58,9 +61,12 @@ with this, we can apply css to our html files. By convention, this folder will b
 
 * body-parser middleware is now built into express
 
+* When pushing information to git, make sure all sensitive information such as password are in .gitignore file.
+
 ### Challenges
 
 * Unable to call a delete method from a form, but found a way to use a get request to perform delete operations [not sure if this is the right way]
 
 **Link(s) to work**
-1. [NodeJS Tutorial By NetNinja](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg)
+1. [NodeJS Tutorial](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg) [Completed]
+2. [NodeJS Express MongoDB & More: The Complete Bootcamp 2020](https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/) [In-Progress]
