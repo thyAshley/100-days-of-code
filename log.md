@@ -19,7 +19,7 @@
 </tbody>
 </table>
 
-# Day 0: May 21, 2020
+# Day 1: May 21, 2020
 ##### Started the 100 days of code challenge 
 
 **Today's Progress**: 
@@ -31,9 +31,16 @@
 - NPM, package.json
 
 
-**Thoughts:** 
-
 **Link(s) to work**
 1. [NodeJS Tutorial By NetNinja](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg)
 
-#### [Link to my NodeJS Github Repostiory](https://github.com/thyAshley/NodeJS-Learning)
+# Day 2: May 22, 2020
+
+**Today's Progress**: 
+- Introduction to Express
+- Route Parameters
+- Introduction to Templating Engines, view Engine,  rendering and passing of data. (EJS)
+
+
+**Link(s) to work**
+1. [NodeJS Tutorial By NetNinja](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg)
