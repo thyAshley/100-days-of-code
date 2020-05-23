@@ -13,7 +13,6 @@ This is my progress log for my 100 days of code challenge.  I will update my goa
     <tr>
         <td>NodeJS</td>
         <td>In Progress</td>
-        <td>1</td>
     </tr>
     <tr>
         <td>ReactJS</td>
@@ -31,16 +30,16 @@ This is my progress log for my 100 days of code challenge.  I will update my goa
     ##### Started the 100 days of code challenge 
 
     ## Today's Progress: 
-    * Introduction to NodeJS
+    * Introduction to NodeJS and REPL 
     * NodeJS standard libraries (fs, event, util)
     * Learn About Buffer and Streams
     * Read Stream, Write Stream and Piping.
-    * Routing with vanilla NodeJS
+    * Routing with vanilla NodeJS`
     * NPM, package.json
 
-># Day 2: May 22, 2020
+# Day 2: May 22, 2020
 
-    <h3>## Today's Progress: </h3>
+    ## Today's Progress:
     * Introduction to Express
     * Route Parameters
     * Introduction to Templating Engines with EJS 
@@ -70,9 +69,22 @@ This is my progress log for my 100 days of code challenge.  I will update my goa
     * Unable to call a delete method from a form, but found a way to use a get request to perform delete operations [not sure if this is the right way]
 
 # Day 3: May 23, 2020
-#### Started on Udemy Express Bootcamp, [Link 2]
+    #### Started on Udemy Express Bootcamp by Jonas Schmedtmann [Link 2]
+
+    **Today's Progress**: 
+    * Recap Synchronous and Asynchonous Blocking
+    * Customise HTML Template how how html template works
+    * Introduction to Slugify library to replace html params links.
+    * Understanding HTTP/HTTPS requests.
+    * Using Vanilla checklist to create a inventory list
+        * Routing
+        * Custom Template with replace and regex
+        * url parsing
+    
+    ### Notes
 
 
-**Today's Progress**: 
-### Notes
-### Challenges
+    
+    ### Challenges
+
+    * A lot of regex involved, to include regex and javascript in this 100 days challenge
