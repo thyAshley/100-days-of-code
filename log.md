@@ -82,9 +82,26 @@ This is my progress log for my 100 days of code challenge.  I will update my goa
         * url parsing
     
     ### Notes
-
-
     
     ### Challenges
 
     * A lot of regex involved, to include regex and javascript in this 100 days challenge
+
+# Day 4: May 24, 2020
+
+    **Today's Progress**: 
+    * Learning about NodeJS Stream
+    * Asynchronous, Callback, Promises
+    * Async function and Awaits
+    * API Testing with Postman
+    * RESTful API architecture, creating RESTFul with express
+    * Created a GET and POST API to get tour list and add new tour into the list
+    * Reading parameters from url
+    * Learning about route for refactoring http methods.
+
+    ### Notes
+    * we can create a promise by using ES6 new Promise((resolve, reject)), we can call resolve() and reject() to indicate if the promise is successful or not.
+
+    ### Challenges
+    * confuse when to use async function and when to use promises or if they are interswappable. To research on this more.
+    * was using status code 204 which stands for no-content and try to send a json response back to the user when the user call the API. Notice there was no response and tried fixing the issue, found out eventually that http status 204 will not include ny message body. 
