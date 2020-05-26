@@ -133,11 +133,38 @@ with this, we can apply css to our html files. By convention, this folder will b
 * Created CRUD API request using express and mongoDB. 
 * Working with process.argv
 * API query string
+* Implemnting filters on query string
 
 ### Notes
 * To look more into MVC setup
 
 ### Challenges
+
+**Link(s) to work**
+1. [NodeJS Express MongoDB & More: The Complete Bootcamp 2020](https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/) 
+
+# Day 6: May 26, 2020
+
+**Today's Progress**: 
+* Advance Filtering on query string
+    * GTE/LTE/LT/GE using regex and replace
+    * Sorting [query = ?sort=name or sort=-name, ascending and descending]
+    * Field Limiting fields[query= ?fields=name,price,e.g.]
+    * Pagination [query = ?page=10&limit=5 e.g.]
+    * Aliasing using middleware to pre-fill query string
+    * MongoDB Aggregation pipeline and unwinding data
+    * Virtual Property
+
+### Notes
+* We are unable to mix inclusion and exclusion fields during field limiting
+* Certain fields can be excluded in the schema, e.g. sensitive data
+* Aggregation pipeline has multiple layers, the first layer is usually what data is to be extracted, next we can use $group to group all this data together and use aggregation function such as sum, avg, min, max to aggregate our data.
+* Virtual property cannot be used in a query.
+
+### Challenges
+* Having issue understanding regex syntax and wrapping around the idea of advance filtering.
+* Careless mistake in creating API using comma instead of ampersand cause unwanted debugging effort
+* Order of routing matters, we should not place any route below a params route :id otherwise node will treat it as a params route.
 
 **Link(s) to work**
 1. [NodeJS Express MongoDB & More: The Complete Bootcamp 2020](https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/) 
