@@ -2,29 +2,44 @@
 
 This is my progress log for my 100 days of learning code challenge.  I will update my goals as i progress through learning web development.
 
+
 **==== GOALS ====** 
 <table>
 <thead>
     <th>Topic</th>
     <th>Status</th>
-    <th>Link</th>
+    <th>Topics</th>
 </thead>
 <tbody>
     <tr>
-        <td>NodeJS</td>
-        <td>In Progress</td>
+        <td rowspan="2">NodeJS</td>
+        <td rowspan="1">Completed</td>
+        <td rowspan="1">To Do List</td>
+    </tr>
+    <tr>
+        <td rowspan="1">In Progress</td>
+        <td rowspan="1">Tour Booking</td>
     </tr>
     <tr>
         <td>ReactJS</td>
         <td>Not Started</td>
     </tr>
+    <tr>
+        <td>React Native</td>
+        <td>Not Started</td>
+    </tr>
+    </td>
+    <tr>
+        <td rowspan="2">Javascript</td>
+        <td rowspan="1">Not Started</td>
+        <td rowspan="1">Async and Promises</td>
+    </tr>
+    <tr>
+        <td rowspan="1">Not Started</td>
+        <td rowspan="1">Regex</td>
+    </tr>
 </tbody>
 </table>
-
-**Link(s) to work**
-1. [NodeJS Tutorial](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg) [Completed]
-2. [NodeJS Express MongoDB & More: The Complete Bootcamp 2020](https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/) [In-Progress]
-
 
 # Day 1: May 21, 2020
 ##### Started the 100 days of code challenge 
@@ -36,9 +51,6 @@ This is my progress log for my 100 days of learning code challenge.  I will upda
 * Read Stream, Write Stream and Piping.
 * Routing with vanilla NodeJS`
 * NPM, package.json
-
-**Link(s) to work**
-1. [NodeJS Tutorial](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg) 
 
 # Day 2: May 22, 2020
 
@@ -71,11 +83,8 @@ with this, we can apply css to our html files. By convention, this folder will b
 
 * Unable to call a delete method from a form, but found a way to use a get request to perform delete operations [not sure if this is the right way]
 
-**Link(s) to work**
-1. [NodeJS Tutorial](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg) 
-
 # Day 3: May 23, 2020
-#### Started on Udemy Express Bootcamp by Jonas Schmedtmann [Link 2]
+#### Started on Udemy Express Bootcamp
 
 **Today's Progress**: 
 * Recap Synchronous and Asynchonous Blocking
@@ -92,9 +101,6 @@ with this, we can apply css to our html files. By convention, this folder will b
 ### Challenges
 
 * A lot of regex involved, to include regex and javascript in this 100 days challenge
-
-**Link(s) to work**
-1. [NodeJS Express MongoDB & More: The Complete Bootcamp 2020](https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/) 
 
 # Day 4: May 24, 2020
 
@@ -114,9 +120,6 @@ with this, we can apply css to our html files. By convention, this folder will b
 ### Challenges
 * confuse when to use async function and when to use promises or if they are interswappable. To research on this more.
 * was using status code 204 which stands for no-content and try to send a json response back to the user when the user call the API. Notice there was no response and tried fixing the issue, found out eventually that http status 204 will not include ny message body. 
-
-**Link(s) to work**
-1. [NodeJS Express MongoDB & More: The Complete Bootcamp 2020](https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/) 
 
 # Day 5: May 25, 2020
 
@@ -140,8 +143,6 @@ with this, we can apply css to our html files. By convention, this folder will b
 
 ### Challenges
 
-**Link(s) to work**
-1. [NodeJS Express MongoDB & More: The Complete Bootcamp 2020](https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/) 
 
 # Day 6: May 26, 2020
 
@@ -166,5 +167,33 @@ with this, we can apply css to our html files. By convention, this folder will b
 * Careless mistake in creating API using comma instead of ampersand cause unwanted debugging effort
 * Order of routing matters, we should not place any route below a params route :id otherwise node will treat it as a params route.
 
-**Link(s) to work**
-1. [NodeJS Express MongoDB & More: The Complete Bootcamp 2020](https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/) 
+# Day 7: May 27, 2020
+
+**Today's Progress**: 
+* Learning about Mongoose Middleware (Pre and Post)
+    * Document Middleware
+    * Query Middleware
+    * Aggregation Middleware
+* Built in validators and custom validators in Mongoose
+* Node Debugging with ndb
+* unhandled route handling
+    * Error handling middleware
+
+### Notes
+* Query middleware can be use to hide documents or perform pre-filtering
+* There is a differences between find and findOne event
+* When creating a middleware with 4 parameter, express will know it is a error-handling middleware
+
+### Challenges
+
+# Day 8: May 28, 2020
+
+**Today's Progress**: 
+
+
+### Notes
+
+
+### Challenges
+
+
