@@ -12,13 +12,17 @@ This is my progress log for my 100 days of learning code challenge.  I will upda
 </thead>
 <tbody>
     <tr>
-        <td rowspan="2">NodeJS</td>
+        <td rowspan="3">NodeJS</td>
         <td rowspan="1">Completed</td>
         <td rowspan="1">To Do List</td>
     </tr>
     <tr>
         <td rowspan="1">In Progress</td>
         <td rowspan="1">Tour Booking</td>
+    </tr>
+        <tr>
+        <td rowspan="1">Not Started</td>
+        <td rowspan="1">PassportJS</td>
     </tr>
     <tr>
         <td>ReactJS</td>
@@ -189,10 +193,17 @@ with this, we can apply css to our html files. By convention, this folder will b
 # Day 8: May 28, 2020
 
 **Today's Progress**: 
-
+* Exception handling, Uncaught Exception
+* creating user models
+* using bcrypt to hash user password.
+* Json Web Tokens and Protected Route
+* Postman for API and environment setup
 
 ### Notes
-
+* Exception handling should be at top of code, otherwise it may not run for code running before exception.
+* Password and private fields should be set to select: false by default, this way unless specified, user will have no access to such information
+* to get hidden fields, we need to explicitly set select('fields') to get the field
+* Token are usually stored in headers and the key value pair is as such: { authorization: Bearer Token_name }
 
 ### Challenges
 
