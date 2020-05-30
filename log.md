@@ -208,3 +208,51 @@ with this, we can apply css to our html files. By convention, this folder will b
 ### Challenges
 
 
+# Day 9: May 30, 2020
+skipped May 29 due to work but it's the weekend again, so time to catch up on learning.
+
+**Today's Progress**: 
+* account roles
+* Reset Password and NodeMailer
+* Capture email using mailtrap during development
+* Allow user to update their own password.
+* Security and rate-limiter
+* sending JWT in cookies
+* Implementing helmetjs for http header
+* Data Modelling, 1 : few, 1 : Many, 1 : Ton, Many: Many
+* GeoJSON Data which work using lat and lon to identify locations
+
+### Notes
+* To pass argument into middleware function, we can use a wrapper which take in a argument and returns a middleware function
+* When reseting password, sometime token is created earlier than data being saved, so token may not be valid, we can insert a buffer time to prevent this.
+* If database timing is different from backend, how will it work? 
+* findByIdAndUpdate() will not work for fields like password as their default select value is false, and pre-"save" middleware will not run on update.
+* Parameter Pollution, express will convert 2 element of the same name into a array.
+
+
+### Challenges
+* Spend too long debugging on issue where bcrypt return Error: Illegal arguments: undefined, number
+* This is due to calling a pre - save middleware which run bcrypt on password change and new password being keyed for the user.
+* Using (!document.isModified('password')) allows me to skip this encrypting of password.
+* Found out about nosql injection where vulnerability can be exploited by sending a query instead of given text
+
+
+## Useful Middlewares (Externals)
+
+<code>
+This is a collection of middleware that i think is useful for every project.
+
+* helmet - Inclusion of HTTP-headers for security purpose
+* bcryptjs - Salting and hashing of password
+* dotenv - allow the use of custom environmental variables
+* express - Make life Easier for creating backend services
+* express-rate-limit - prevent dos/ddos and high volume access to server
+* nodemailer - use to send out email
+* validator - library for validating and sanitizes strings. Can be use with mongoose model validate.
+* morgan - for logging purpose
+* mongoose - ODM for mongoDB and nodeJS
+* jsonwebtoken - JWT provide a way of authorization for users
+* express-mongo-sanitize - prevent query attack for mongoDB by removing all dots and dollar sign.
+* xss-clean - sanitization for input by cleaning malicious code from inputs
+* hpp - http parameter pollution prevention middleware, the result will be using the last parameter. takes in a whitelist array
+</code>
