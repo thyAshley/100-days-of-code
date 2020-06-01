@@ -266,11 +266,21 @@ skipped May 29 due to work but it's the weekend again, so time to catch up on le
 # Day 11: June 1, 2020
 
 **Today's Progress**: 
+* Unique Entry using indexes.
+* setting function in mongoose
+* GeoWithin and Geolocation
+* Geoaggregation $geoNear
+* Creating documents using PostMan
+* PUG templating
 
 ### Notes
+* we can create unique input by using indexes
+* we can use split to destruct array <code>[ el1, el2 ] = array.split(',');</code>
+* index for geospatial type is 2d or 2dSphere
+* very unfamiliar with using geo datapoint, to practice on this more. 
 
-### Challenges
-
+### Challenges 
+* always look at routing url and router.route url, spend too much trying to fix routing issue
 
 
 ## Useful Middlewares (Externals)
