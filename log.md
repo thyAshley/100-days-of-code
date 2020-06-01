@@ -259,6 +259,19 @@ skipped May 29 due to work but it's the weekend again, so time to catch up on le
 * /^findOneAnd/ refers to findbyIdAndUpdate and findByIdAndDelete
 
 ### Challenges
+* Performed a lot of simple mistake and typo, spend hours only to find out i been using the wrong wrong findBy function. 
+* Still don't understand how is findOneAnd regex linked to findByIdAndUpdate and findByIdAndDelete
+* Need to learn more on constructor function as it is confusing using a pre and post middleware with constructor to access the Class
+
+# Day 11: June 1, 2020
+
+**Today's Progress**: 
+
+### Notes
+
+### Challenges
+
+
 
 ## Useful Middlewares (Externals)
 
