@@ -236,6 +236,29 @@ skipped May 29 due to work but it's the weekend again, so time to catch up on le
 * Using (!document.isModified('password')) allows me to skip this encrypting of password.
 * Found out about nosql injection where vulnerability can be exploited by sending a query instead of given text
 
+# Day 10: May 31, 2020
+1/10th of this challenge is completed and i still have so much to learn, i never thought that i would learn so much in these 10 days. I have also added a list of useful middlewares that i am working with for my first course. 
+
+**Today's Progress**: 
+* Learn about referencing datatype and populating in mongoose
+* Virtual Populate
+* Nested Route, mergeParams. 
+* Factory Function
+* indexes when filtering
+
+### Notes
+* when using referencing, the ref should have the same <b>name</b> as the model mongoose.model(<b>name</b>, schema="xxSchema")
+* Using virtual populate we can make a parent/child reference without having it being persistent
+* nested route can be implemented but in order to pass parameters we need to use the option mergeParams: true in express.Router()
+* middleware run in sequence, we can implement authentication and authorization using middleware on all function by running middleware before running those function.
+* when selecting use <code>.select(+fields)</code> instead of <code>.select(fields)</code> as without the plus sign, it will only extract that single field
+* By default, mongoDB will search all query based on id, we can set our own indexes to make this search faster. all unique field will have a index. There is also a compound index where multiple field can be use as index
+* Post middleware does not have access to next()
+* Query middleware have no access to "this", in this case, this refers to the query. We can execute the query to get the document
+* this refers to the query in pre but not in post
+* /^findOneAnd/ refers to findbyIdAndUpdate and findByIdAndDelete
+
+### Challenges
 
 ## Useful Middlewares (Externals)
 
