@@ -282,6 +282,22 @@ skipped May 29 due to work but it's the weekend again, so time to catch up on le
 ### Challenges 
 * always look at routing url and router.route url, spend too much trying to fix routing issue
 
+# Day 12: June 2, 2020
+
+**Today's Progress**: 
+* Working with Pug file to render website
+    * Mixin
+    * each loop,
+    * conditional
+* Mapbox API for frontend integration with Maps
+* Axios for logging in application on frontend
+* pass variables from backend to front using res.locals
+* Module Bundler
+
+### Notes
+
+### Challenges 
+
 
 ## Useful Middlewares (Externals)
 
