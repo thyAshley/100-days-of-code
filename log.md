@@ -100,8 +100,6 @@ with this, we can apply css to our html files. By convention, this folder will b
     * Custom Template with replace and regex
     * url parsing
 
-### Notes
-
 ### Challenges
 
 * A lot of regex involved, to include regex and javascript in this 100 days challenge
@@ -145,9 +143,6 @@ with this, we can apply css to our html files. By convention, this folder will b
 ### Notes
 * To look more into MVC setup
 
-### Challenges
-
-
 # Day 6: May 26, 2020
 
 **Today's Progress**: 
@@ -188,7 +183,6 @@ with this, we can apply css to our html files. By convention, this folder will b
 * There is a differences between find and findOne event
 * When creating a middleware with 4 parameter, express will know it is a error-handling middleware
 
-### Challenges
 
 # Day 8: May 28, 2020
 
@@ -204,8 +198,6 @@ with this, we can apply css to our html files. By convention, this folder will b
 * Password and private fields should be set to select: false by default, this way unless specified, user will have no access to such information
 * to get hidden fields, we need to explicitly set select('fields') to get the field
 * Token are usually stored in headers and the key value pair is as such: { authorization: Bearer Token_name }
-
-### Challenges
 
 
 # Day 9: May 30, 2020
@@ -294,12 +286,15 @@ skipped May 29 due to work but it's the weekend again, so time to catch up on le
 * pass variables from backend to front using res.locals
 * Module Bundler
 
-### Notes
+# Day 13: June 3, 2020
 
-### Challenges 
+**Today's Progress**: 
+* Logging out user by sending new cookie without token
+* Error handling page, 404
+* using form post method and AXIOS for making call to backend
+* Express urlencoded to parse form data and data coming by url.
 
-
-## Useful Middlewares (Externals)
+# Day 14: June 4, 2019
 
 <code>
 This is a collection of middleware that i think is useful for every project.
