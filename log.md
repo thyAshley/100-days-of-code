@@ -296,6 +296,17 @@ skipped May 29 due to work but it's the weekend again, so time to catch up on le
 
 # Day 14: June 4, 2019
 
+**Today's Progress**: 
+* Working with Multer library for file uploading
+    * single file uploading
+    * multi file uploading
+    * enctype multipart/form-data
+    * Working with SendGrid
+
+### Notes
+* use multer.single for single file upload, multer.array for multiple same file upload and multer.fields for multiple different file upload
+* using map return a array of promises which we can apply promise.all() for.
+
 <code>
 This is a collection of middleware that i think is useful for every project.
 
@@ -312,4 +323,9 @@ This is a collection of middleware that i think is useful for every project.
 * express-mongo-sanitize - prevent query attack for mongoDB by removing all dots and dollar sign.
 * xss-clean - sanitization for input by cleaning malicious code from inputs
 * hpp - http parameter pollution prevention middleware, the result will be using the last parameter. takes in a whitelist array
+* cookie-parser - read cookie 
+* multer - file uploading 
+* sharp - image resizing
+* html-to-text -  strip all html and converting to text
+
 </code>
