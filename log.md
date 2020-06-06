@@ -2,8 +2,25 @@
 
 This is my progress log for my 100 days of learning code challenge.  I will update my goals as i progress through learning web development.
 
+**=== Major Projects===**
+
+<table>
+    <tr>
+        <th>Application</th>
+        <th>Username</th>
+        <th>Password</th>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://natoursbooking.herokuapp.com/">Tour Booking Application</a>
+        </td>
+        <td>leo@example.com</td>
+        <td>test1234</td>
+    </tr>
+</table>
 
 **==== GOALS ====** 
+
 <table>
 <thead>
     <th>Topic</th>
@@ -17,7 +34,7 @@ This is my progress log for my 100 days of learning code challenge.  I will upda
         <td rowspan="1">To Do List</td>
     </tr>
     <tr>
-        <td rowspan="1">In Progress</td>
+        <td rowspan="1">Completed (to re-do)</td>
         <td rowspan="1">Tour Booking</td>
     </tr>
         <tr>
@@ -311,13 +328,27 @@ skipped May 29 due to work but it's the weekend again, so time to catch up on le
 
 **Today's Progress**: 
 * Working with Stripe API
+* Deployed Website on Heroku, finish baseline project for making a tour booking application using nodejs
+* heroku sigterm and allowing cross origin resource sharing of APIs
+* webhooks
 
 ### Notes
+* May be a bug with parcel bundle, but stripe need to be on all pages.
+* Nodemon only for development
+* heroku dyno restart every 24h use a process.on('sigterm') to handle this from shutting down abrutly
+* have to set a trust proxy as heroku does not have req.secure
+* Web hooks require non-json body, apply this before express.json(). <code>Use express.raw({type: 'application/json'} instead</code>
+
+### Remarks
+* Finally done with my first huge course on nodejs, i have learnt a great deal in this 2 weeks on this course. The course is really well detailed but skip some parts like html and css which i would have to go back and review. From this, i found that i prefer to work with ejs as compared to pug as it is more similiar to HTML. At the end of this 100 day challenge, i would like to rebuilt this application again without following the tutorials to see how much i have learn. This application is also only partially completed as the creator left some of the parts as challenges for the us. 
+
+# Day 16: June 6, 2019
 
 
 <code>
 This is a collection of middleware that i think is useful for every project.
 
+* nodemon - Must have application for development for auto restarting of servers
 * helmet - Inclusion of HTTP-headers for security purpose
 * bcryptjs - Salting and hashing of password
 * dotenv - allow the use of custom environmental variables
@@ -335,5 +366,8 @@ This is a collection of middleware that i think is useful for every project.
 * multer - file uploading 
 * sharp - image resizing
 * html-to-text -  strip all html and converting to text
+* compression - compress all response and text to client
+* cors - allow cross origin resource sharing 
+
 
 </code>
