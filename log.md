@@ -307,6 +307,14 @@ skipped May 29 due to work but it's the weekend again, so time to catch up on le
 * use multer.single for single file upload, multer.array for multiple same file upload and multer.fields for multiple different file upload
 * using map return a array of promises which we can apply promise.all() for.
 
+# Day 15: June 5, 2019
+
+**Today's Progress**: 
+* Working with Stripe API
+
+### Notes
+
+
 <code>
 This is a collection of middleware that i think is useful for every project.
 
