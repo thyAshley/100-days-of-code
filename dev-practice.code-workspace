@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "..\\Development"
+		},
+		{
+			"path": "..\\NodeJS-Learning"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\React"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "React"
+	}
+}

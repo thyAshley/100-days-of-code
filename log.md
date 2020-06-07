@@ -21,6 +21,8 @@ This is my progress log for my 100 days of learning code challenge.  I will upda
 
 **==== GOALS ====** 
 
+To learn about fullstack development over and beyond this 100 days
+
 <table>
 <thead>
     <th>Topic</th>
@@ -43,10 +45,10 @@ This is my progress log for my 100 days of learning code challenge.  I will upda
     </tr>
     <tr>
         <td>ReactJS</td>
-        <td>Not Started</td>
+        <td>In Progress</td>
     </tr>
     <tr>
-        <td>React Native</td>
+        <td>Dot Net C#</td>
         <td>Not Started</td>
     </tr>
     </td>
@@ -344,6 +346,24 @@ skipped May 29 due to work but it's the weekend again, so time to catch up on le
 
 # Day 16: June 6, 2019
 
+Started on React Course
+
+**Today's Progress**: 
+* Updating webhooks to redirect
+* JSX - Javascript XML and Babel
+* React
+    * Class Components and Function Based Components
+    * Javascript embedding
+    * JSX Conditioning
+    * Props
+    * Default Props
+    * inline-css and adding className.
+
+### Notes
+* react has re-usable components concept which make up the entire webpage like lego blocks.
+* Before React-Hooks, State and lifecycle is for class based component, so better to just use class based component.
+* defaultProps must be called that otherwise it will not work.
+* keyword in javascript are replaced in react, e.g. class->className, for->htmlFor
 
 <code>
 This is a collection of middleware that i think is useful for every project.
