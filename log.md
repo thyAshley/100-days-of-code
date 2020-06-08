@@ -428,5 +428,8 @@ This is a collection of middleware that i think is useful for every project.
 - compression - compress all response and text to client
 - cors - allow cross origin resource sharing
 - faker - populating with fake data
+- tailwindcss - css library
+- @fortawesome/fontawesome-svg-score, /free-solid-svg-icons, / react-fontawesome - fontawesome library for reactjs
+- react-spring - for animation and mounting
 
 </code>
