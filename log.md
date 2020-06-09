@@ -404,6 +404,19 @@ Started on React Course
 - keyword in javascript are replaced in react, e.g. class->className, for->htmlFor
 - setState is asynchronous function
 
+# Day 18: June 8, 2019
+
+**Today's Progress**:
+
+- Working with React and Bootstrap to create a simple counter application
+- Composing Components in React
+
+### Notes
+
+- React create a virtual DOM which figure out what is change from real DOM. React then update only the changed component. This allow us to no longer need to work with DOM API.
+- arrow function do not rebind "this"
+- Unique key is required for each item in react array, we are unable to access key value in the component as well.
+
 <code>
 This is a collection of middleware that i think is useful for every project.
 
@@ -427,9 +440,9 @@ This is a collection of middleware that i think is useful for every project.
 - html-to-text - strip all html and converting to text
 - compression - compress all response and text to client
 - cors - allow cross origin resource sharing
+- bootstrap - css library
 - faker - populating with fake data
 - tailwindcss - css library
-- @fortawesome/fontawesome-svg-score, /free-solid-svg-icons, / react-fontawesome - fontawesome library for reactjs
 - react-spring - for animation and mounting
 
 </code>
