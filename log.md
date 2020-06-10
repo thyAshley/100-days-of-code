@@ -417,6 +417,18 @@ Started on React Course
 - arrow function do not rebind "this"
 - Unique key is required for each item in react array, we are unable to access key value in the component as well.
 
+# Day 19: June 9, 2019
+
+**Today's Progress**:
+
+- Stateless Functional Components
+- Lifecycle Hooks
+- Learning React
+
+### Notes
+
+- useState does not automatically merge non-used states
+
 <code>
 This is a collection of middleware that i think is useful for every project.
 
