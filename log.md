@@ -429,6 +429,22 @@ Started on React Course
 
 - useState does not automatically merge non-used states
 
+# Day 20: June 11, 2019
+
+**Today's Progress**:
+
+- Working with react, completed challenge 2 for react course.
+- dynamic styling in react with Radium and Styled Components
+- css modules
+- Error boundaries with ComponentDidCatch
+- component lifecycle
+
+### Notes
+
+- for react-script 1.x we need to eject the build to use css modules
+- for react-script 2 and above, we can just name the css file with name.module.css
+- useEffects is like a middleware, passing a 2nd argument can state when will the useEffect runs. leavign a empty run makes useEffect run on the first time it is called.
+
 <code>
 This is a collection of middleware that i think is useful for every project.
 
@@ -456,5 +472,7 @@ This is a collection of middleware that i think is useful for every project.
 - faker - populating with fake data
 - tailwindcss - css library
 - react-spring - for animation and mounting
+- radium - allow inline style with sudo and media query for react
+- style-components - similiar to radium to facilitate css
 
 </code>
