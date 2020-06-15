@@ -445,6 +445,36 @@ Started on React Course
 - for react-script 2 and above, we can just name the css file with name.module.css
 - useEffects is like a middleware, passing a 2nd argument can state when will the useEffect runs. leavign a empty run makes useEffect run on the first time it is called.
 
+# Day 21: June 14, 2019
+
+Took a 2 day break before continuing on this challenge as it has been a tiring week at work.
+
+**Today's Progress**:
+
+- Using React.memo and ShouldComponentUpdate
+- PureComponent
+- Working with adjacent return in JXS
+- Higher Order Components
+- PropTypes and Refs
+- ContextAPI and contextType
+
+### Notes
+
+- PureComponent check ALL props
+- Unclear on HOC, to re-look into this again
+- updating react state base on older state, use prevState option
+
+# Day 22: June 14, 2019
+
+**Today's Progress**:
+
+- Working on Burger Application
+
+### Notes
+
+- Images should not be reference for React, they should be imported like components, webpack will compile the final path location to the image.
+- duplicated css name is ok because webpack will convert all module css into unique names
+
 <code>
 This is a collection of middleware that i think is useful for every project.
 
@@ -474,5 +504,6 @@ This is a collection of middleware that i think is useful for every project.
 - react-spring - for animation and mounting
 - radium - allow inline style with sudo and media query for react
 - style-components - similiar to radium to facilitate css
+- prop-types - define type of data and expected input
 
 </code>
