@@ -341,7 +341,7 @@ skipped May 29 due to work but it's the weekend again, so time to catch up on le
 - using form post method and AXIOS for making call to backend
 - Express urlencoded to parse form data and data coming by url.
 
-# Day 14: June 4, 2019
+# Day 14: June 4, 2020
 
 **Today's Progress**:
 
@@ -356,7 +356,7 @@ skipped May 29 due to work but it's the weekend again, so time to catch up on le
 - use multer.single for single file upload, multer.array for multiple same file upload and multer.fields for multiple different file upload
 - using map return a array of promises which we can apply promise.all() for.
 
-# Day 15: June 5, 2019
+# Day 15: June 5, 2020
 
 **Today's Progress**:
 
@@ -377,7 +377,7 @@ skipped May 29 due to work but it's the weekend again, so time to catch up on le
 
 - Finally done with my first huge course on nodejs, i have learnt a great deal in this 2 weeks on this course. The course is really well detailed but skip some parts like html and css which i would have to go back and review. From this, i found that i prefer to work with ejs as compared to pug as it is more similiar to HTML. At the end of this 100 day challenge, i would like to rebuilt this application again without following the tutorials to see how much i have learn. This application is also only partially completed as the creator left some of the parts as challenges for the us.
 
-# Day 17: June 7, 2019
+# Day 17: June 7, 2020
 
 Started on React Course
 
@@ -404,7 +404,7 @@ Started on React Course
 - keyword in javascript are replaced in react, e.g. class->className, for->htmlFor
 - setState is asynchronous function
 
-# Day 18: June 8, 2019
+# Day 18: June 8, 2020
 
 **Today's Progress**:
 
@@ -417,7 +417,7 @@ Started on React Course
 - arrow function do not rebind "this"
 - Unique key is required for each item in react array, we are unable to access key value in the component as well.
 
-# Day 19: June 9, 2019
+# Day 19: June 9, 2020
 
 **Today's Progress**:
 
@@ -429,7 +429,7 @@ Started on React Course
 
 - useState does not automatically merge non-used states
 
-# Day 20: June 11, 2019
+# Day 20: June 11, 2020
 
 **Today's Progress**:
 
@@ -445,7 +445,7 @@ Started on React Course
 - for react-script 2 and above, we can just name the css file with name.module.css
 - useEffects is like a middleware, passing a 2nd argument can state when will the useEffect runs. leavign a empty run makes useEffect run on the first time it is called.
 
-# Day 21: June 14, 2019
+# Day 21: June 14, 2020
 
 Took a 2 day break before continuing on this challenge as it has been a tiring week at work.
 
@@ -464,7 +464,7 @@ Took a 2 day break before continuing on this challenge as it has been a tiring w
 - Unclear on HOC, to re-look into this again
 - updating react state base on older state, use prevState option
 
-# Day 22: June 14, 2019
+# Day 22: June 15, 2020
 
 **Today's Progress**:
 
@@ -474,6 +474,15 @@ Took a 2 day break before continuing on this challenge as it has been a tiring w
 
 - Images should not be reference for React, they should be imported like components, webpack will compile the final path location to the image.
 - duplicated css name is ok because webpack will convert all module css into unique names
+
+# Day 23: June 16, 2020
+
+**Today's Progress**:
+
+- Learning about react optimisation
+- Working Axios and React
+- Transforming data
+- Interceptors and defaults
 
 <code>
 This is a collection of middleware that i think is useful for every project.
