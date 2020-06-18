@@ -484,6 +484,26 @@ Took a 2 day break before continuing on this challenge as it has been a tiring w
 - Transforming data
 - Interceptors and defaults
 
+# Day 24: June 17, 2020
+
+**Today's Progress**:
+
+- global error handling with react hoc
+- Anoynomous class function
+- fetch data using axios and populating react components wtih componentDidMount
+- Routing in React
+- Links in react-router
+- relative path and absolute path
+- NavLink, Switch
+
+### Notes
+
+- Everything that needs involve routing should be encapsulated by a BrowserRouter on the parent element, with this all child component can use react-router and react-router-dom functions
+- Link creates <code>&lt;a&gt;</code> while NavLink creates an <code>&lt;a&gt;</code> with active class, we can style and overwrite this using activeClassName and activeStyle.
+- React will render different routes for each <code>Route</code> component
+- Switch can be use to prevent multiple matching component and only run the first matched.
+- we can use <code>this.props.history.push({pathname: \_\_})</code> to redirect onClick links instead of wrapping with a Link component
+
 <code>
 This is a collection of middleware that i think is useful for every project.
 
