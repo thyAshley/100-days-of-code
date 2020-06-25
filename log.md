@@ -504,6 +504,72 @@ Took a 2 day break before continuing on this challenge as it has been a tiring w
 - Switch can be use to prevent multiple matching component and only run the first matched.
 - we can use <code>this.props.history.push({pathname: \_\_})</code> to redirect onClick links instead of wrapping with a Link component
 
+# Day 25: June 18, 2020
+
+One quarter done with this 100 day challenge, so far i am prefering to deal with the backend more than the frontend.
+
+**Today's Progress**:
+
+- Redirecting and conditional redirect using Redirect from react-router-dom
+- Guard using componentDidMount or conditional rendering
+- Route without path
+- Lazy Loading by creating a async function
+- Dynamic importing
+
+### Notes
+
+- when importing, webpack will store reference into global bundle but for lazy loading, we only want to load it when it is called.
+- instaed of loading everything at once, we load the component asynchronously, e.g. table load as you scroll. React 16.6 and later.
+
+# Day 26: June 19, 2020
+
+**Today's Progress**:
+
+- Lazy loading using Lazy which is available in React 16.6
+- BrowserRouter and basename
+
+### Notes
+
+- Lazy is only meant for client side rendering and not server side rendering
+- Only react app knows the route which is not known to the server at the start, this can lead to 404 error
+
+# Day 27: June 19, 2020
+
+**Today's Progress**:
+
+- Working with Routing in burger app
+
+# Day 28: June 21, 2020
+
+**Today's Progress**:
+
+- Render and component for react-router
+- working with react-router
+- Fetching and displaying data from firebase
+- working with firebase and axios as well as mapping to transform data
+
+### Notes
+
+- we can pass props using render compared to using component in Route
+
+# Day 29: June 24, 2020
+
+**Today's Progress**:
+
+- Form validation with React
+- 2 way binding for inputs
+- handling form submission
+- custom form validator
+- Redux store, initial state, reducer, dispatching action and subscription
+- connecting redux to react with react-redux connect and provider
+
+### Notes
+
+- Basic Redux Set up, creating a store with <code>redux.createStore</code>
+- Add a reducer function, the reducer function takes in the current state and action and returns the next state <code> redux.createStore(reducer(currentState, action) => nextState) </code>
+- Next we create a dispatching action with the keyword type, this dispatcher will be triggered in the reducer by using the type keyword.
+- We can also create a subscriber which will trigger everytime the dispatch trigger, note that subscribe function have to run before the dispatch function.
+
 <code>
 This is a collection of middleware that i think is useful for every project.
 
