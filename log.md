@@ -570,8 +570,33 @@ One quarter done with this 100 day challenge, so far i am prefering to deal with
 - Next we create a dispatching action with the keyword type, this dispatcher will be triggered in the reducer by using the type keyword.
 - We can also create a subscriber which will trigger everytime the dispatch trigger, note that subscribe function have to run before the dispatch function.
 
-<code>
-This is a collection of middleware that i think is useful for every project.
+# Day 30: June 25, 2020
+
+**Today's Progress**:
+
+- Redux Practice
+- combineReducers
+
+### Notes
+
+- Filter and concat remove a new array, this is useful when updating state.
+
+# Day 31: June 26, 2020
+
+**Today's Progress**:
+
+- Working with Redux on burger project
+- Redux middleware to log states
+- Redux dev tools
+- action creators
+
+### Notes
+
+- Action creators are a neater way of structuring the code base but is not always necessary.
+- Actions are runned synchronously and we need to handle async code differently
+
+  <code>
+  This is a collection of middleware that i think is useful for every project.
 
 - nodemon - Must have application for development for auto restarting of servers
 - helmet - Inclusion of HTTP-headers for security purpose
