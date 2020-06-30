@@ -595,6 +595,48 @@ One quarter done with this 100 day challenge, so far i am prefering to deal with
 - Action creators are a neater way of structuring the code base but is not always necessary.
 - Actions are runned synchronously and we need to handle async code differently
 
+# Day 32: June 27, 2020
+
+**Today's Progress**:
+
+- Asynchronous Redux with Redux-thunk
+- switch case utility functions
+
+### Notes
+
+- in the async action creators, dispatch is passed from thunk and stop the flow of the program.
+- we create a action creators which will be dispatched by the async-code.
+- Store sync code in reducers and async code in action creators
+
+# Day 33: June 28, 2020
+
+**Today's Progress**:
+
+- Working with Redux tutorial
+- Working with asynchronous code in redux
+
+### Notes
+
+- we are unable to directly access state in different reducers, this however can be done using redux-thunk by passing the getState() function
+
+# Day 34: June 29, 2020
+
+**Today's Progress**:
+
+- Authentication with Single Page Application
+
+# Day 35: June 30, 2020
+
+**Today's Progress**:
+
+- Working with react and redux
+- using firebase to authenticate and storing data in local storage.
+- Working with firebase API
+
+### Notes
+
+- unable to access dotenv files in react as browser cannot reach the server
+
   <code>
   This is a collection of middleware that i think is useful for every project.
 
@@ -625,5 +667,9 @@ One quarter done with this 100 day challenge, so far i am prefering to deal with
 - radium - allow inline style with sudo and media query for react
 - style-components - similiar to radium to facilitate css
 - prop-types - define type of data and expected input
+- redux - state management
+- react-redux - using redux in react
+- redux-thunk - asynchronous redux
+- axios - simplify https requests
 
 </code>
