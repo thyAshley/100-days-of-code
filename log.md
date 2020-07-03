@@ -9,6 +9,7 @@ This is my progress log for my 100 days of learning code challenge. I will updat
         <th>Application</th>
         <th>Username</th>
         <th>Password</th>
+        <th>Tools Used</th>
     </tr>
     <tr>
         <td>
@@ -16,6 +17,15 @@ This is my progress log for my 100 days of learning code challenge. I will updat
         </td>
         <td>leo@example.com</td>
         <td>test1234</td>
+        <td>Node, Express, Mongo, EJS, Heroku, Json Web Token</td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://burgerapp-b32e1.web.app/">Burger Builder Application</a>
+        </td>
+        <td>test@test.com</td>
+        <td>123123123</td>
+        <td>React, Redux, Firebase, JestJS</td>
     </tr>
 </table>
 
@@ -45,7 +55,7 @@ To learn about fullstack development over and beyond this 100 days
     </tr>
     <tr>
         <td>ReactJS</td>
-        <td>In Progress</td>
+        <td>Completed</td>
     </tr>
     <tr>
         <td>Dot Net C#</td>
@@ -632,12 +642,28 @@ One quarter done with this 100 day challenge, so far i am prefering to deal with
 - Working with react and redux
 - using firebase to authenticate and storing data in local storage.
 - Working with firebase API
+- unable to access dotenv files in react as browser cannot reach the server
+
+# Day 36: July 2, 2020
+
+**Today's Progress**:
+
+- unit test and automated testing with jest and enzyme
+- simulate props and state with enzyme
+- deployed application on firebase
 
 ### Notes
 
-- unable to access dotenv files in react as browser cannot reach the server
+- it() takes in 2 argument, the first is the description of the test, the second is a function which carry out the test.
+- describe takes in two argument, the first is the component we are testing, the second is all the test
 
-  <code>
+# Day 37: July 4, 2020
+
+**Today's Progress**:
+- working with webpack
+
+
+- <code>
   This is a collection of middleware that i think is useful for every project.
 
 - nodemon - Must have application for development for auto restarting of servers
@@ -671,5 +697,9 @@ One quarter done with this 100 day challenge, so far i am prefering to deal with
 - react-redux - using redux in react
 - redux-thunk - asynchronous redux
 - axios - simplify https requests
+- jest - Test runner
+- enzyme - testing library which allow for unit testing without rendering entire component
+- enyzme-adapter-react-16 - react testing with enzyme
+- react-test-renderer - react test library
 
 </code>
