@@ -660,8 +660,32 @@ One quarter done with this 100 day challenge, so far i am prefering to deal with
 # Day 37: July 4, 2020
 
 **Today's Progress**:
-- working with webpack
 
+- working with webpack
+- understanding how create-react-app work under the hood
+- Redux Saga
+- React Hooks
+- useState - similar to setState in class
+- useEffect - passing [] to 2nd argument make it react as a componentDidMount
+- useCallback - To prevent function from re-rendering
+- useMemo - To prevent Value from re-rendering
+- useRef - create a reference
+- useContext - allow sharing of Providers in functional components
+- optimization of React applications
+
+### Notes
+
+- useState does not merge existing states but replaces it
+- useState can only be use in custom react function or in the root function.
+- an empty 2nd argument in useEffects make useEffect similar to ComponentDidMount
+- useCallback is used to wrapped around a function which prevent it from being re-render, this should be use for static function which will not change on each run
+- useContext hook allow sharing of provider in function components without the need of class components
+
+# Day 38: July 5, 2020
+
+**Today's Progress**:
+
+### Notes
 
 - <code>
   This is a collection of middleware that i think is useful for every project.
