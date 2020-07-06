@@ -686,48 +686,56 @@ One quarter done with this 100 day challenge, so far i am prefering to deal with
 **Today's Progress**:
 
 - custom hooks
+- working on node-js again to recap concept before heading on to creating a MERN application
 
 ### Notes
 
 - custom hooks allow sharing of stateful result
 
-- <code>
+# Day 39: July 6, 2020
+
+**Today's Progress**:
+
+- Recap on MVC model and ExpressJS
+- created the layout for a online-store
+
+* <code>
   This is a collection of middleware that i think is useful for every project.
 
-- nodemon - Must have application for development for auto restarting of servers
-- helmet - Inclusion of HTTP-headers for security purpose
-- bcryptjs - Salting and hashing of password
-- dotenv - allow the use of custom environmental variables
-- express - Make life Easier for creating backend services
-- express-rate-limit - prevent dos/ddos and high volume access to server
-- nodemailer - use to send out email
-- validator - library for validating and sanitizes strings. Can be use with mongoose model validate.
-- morgan - for logging purpose
-- mongoose - ODM for mongoDB and nodeJS
-- jsonwebtoken - JWT provide a way of authorization for users
-- express-mongo-sanitize - prevent query attack for mongoDB by removing all dots and dollar sign.
-- xss-clean - sanitization for input by cleaning malicious code from inputs
-- hpp - http parameter pollution prevention middleware, the result will be using the last parameter. takes in a whitelist array
-- cookie-parser - read cookie
-- multer - file uploading
-- sharp - image resizing
-- html-to-text - strip all html and converting to text
-- compression - compress all response and text to client
-- cors - allow cross origin resource sharing
-- bootstrap - css library
-- faker - populating with fake data
-- tailwindcss - css library
-- react-spring - for animation and mounting
-- radium - allow inline style with sudo and media query for react
-- style-components - similiar to radium to facilitate css
-- prop-types - define type of data and expected input
-- redux - state management
-- react-redux - using redux in react
-- redux-thunk - asynchronous redux
-- axios - simplify https requests
-- jest - Test runner
-- enzyme - testing library which allow for unit testing without rendering entire component
-- enyzme-adapter-react-16 - react testing with enzyme
-- react-test-renderer - react test library
+* nodemon - Must have application for development for auto restarting of servers
+* helmet - Inclusion of HTTP-headers for security purpose
+* bcryptjs - Salting and hashing of password
+* dotenv - allow the use of custom environmental variables
+* express - Make life Easier for creating backend services
+* express-rate-limit - prevent dos/ddos and high volume access to server
+* nodemailer - use to send out email
+* validator - library for validating and sanitizes strings. Can be use with mongoose model validate.
+* morgan - for logging purpose
+* mongoose - ODM for mongoDB and nodeJS
+* jsonwebtoken - JWT provide a way of authorization for users
+* express-mongo-sanitize - prevent query attack for mongoDB by removing all dots and dollar sign.
+* xss-clean - sanitization for input by cleaning malicious code from inputs
+* hpp - http parameter pollution prevention middleware, the result will be using the last parameter. takes in a whitelist array
+* cookie-parser - read cookie
+* multer - file uploading
+* sharp - image resizing
+* html-to-text - strip all html and converting to text
+* compression - compress all response and text to client
+* cors - allow cross origin resource sharing
+* bootstrap - css library
+* faker - populating with fake data
+* tailwindcss - css library
+* react-spring - for animation and mounting
+* radium - allow inline style with sudo and media query for react
+* style-components - similiar to radium to facilitate css
+* prop-types - define type of data and expected input
+* redux - state management
+* react-redux - using redux in react
+* redux-thunk - asynchronous redux
+* axios - simplify https requests
+* jest - Test runner
+* enzyme - testing library which allow for unit testing without rendering entire component
+* enyzme-adapter-react-16 - react testing with enzyme
+* react-test-renderer - react test library
 
 </code>
