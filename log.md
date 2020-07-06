@@ -685,7 +685,11 @@ One quarter done with this 100 day challenge, so far i am prefering to deal with
 
 **Today's Progress**:
 
+- custom hooks
+
 ### Notes
+
+- custom hooks allow sharing of stateful result
 
 - <code>
   This is a collection of middleware that i think is useful for every project.
