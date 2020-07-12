@@ -699,6 +699,59 @@ One quarter done with this 100 day challenge, so far i am prefering to deal with
 - Recap on MVC model and ExpressJS
 - created the layout for a online-store
 
+# Day 40: July 7, 2020
+
+**Today's Progress**:
+
+- working with nodejs and express
+
+### Note
+
+- We can add in a second parameter in ejs include to pass information
+  <code><%- include('./filename.ejs', {parameter} %></code>
+
+# Day 41: July 8, 2020
+
+**Today's Progress**:
+
+- working with nodejs and express to build a e-commerce application
+- working with mysql2 and setting up mysql for project
+
+### Note
+
+- workign with sequelize simplify our job and reduce the need to learn how query multiple databases.
+
+# Day 42: July 9, 2020
+
+**Today's Progress**:
+
+- re-created base project with mysql instead of local file
+- working with sequelize
+- working with standard mongo package
+
+### Note
+
+- HasOne, HasMany, belongsTo, belongsToMany are association methods
+
+# Day 43: July 10, 2020
+
+**Today's Progress**:
+
+- working with mongodb
+
+# Day 42: July 11, 20203
+
+**Today's Progress**:
+
+- working with mongoose package to replace mongodb
+- extend mongoose with own function using mongoose.method
+- nested populate <code>.populate({path: 'parent/child/grandchild', model: 'model'})</code>
+
+### Note
+
+- when using mongoose.method do not use <code>mongoose.method.methodname</code>, instead use <code>mongoose.method(methodname, function() {})</code>
+- populate does not return promise, there is a execPopulate which help do this
+
 * <code>
   This is a collection of middleware that i think is useful for every project.
 
@@ -737,5 +790,7 @@ One quarter done with this 100 day challenge, so far i am prefering to deal with
 * enzyme - testing library which allow for unit testing without rendering entire component
 * enyzme-adapter-react-16 - react testing with enzyme
 * react-test-renderer - react test library
+* mysql2 - db driver to mysql
+* sequelize - Object Relation Mapper which map json data into sql queries
 
 </code>
