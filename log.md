@@ -739,7 +739,7 @@ One quarter done with this 100 day challenge, so far i am prefering to deal with
 
 - working with mongodb
 
-# Day 42: July 11, 20203
+# Day 44: July 11, 2020
 
 **Today's Progress**:
 
@@ -749,48 +749,73 @@ One quarter done with this 100 day challenge, so far i am prefering to deal with
 
 ### Note
 
-- when using mongoose.method do not use <code>mongoose.method.methodname</code>, instead use <code>mongoose.method(methodname, function() {})</code>
+- <code>mongoose.methods.methodname</code>, or use <code>mongoose.method(methodname, function() {})</code> return a method that can be called on the model.
 - populate does not return promise, there is a execPopulate which help do this
 
-* <code>
-  This is a collection of middleware that i think is useful for every project.
+# Day 45: July 12, 2020
 
-* nodemon - Must have application for development for auto restarting of servers
-* helmet - Inclusion of HTTP-headers for security purpose
-* bcryptjs - Salting and hashing of password
-* dotenv - allow the use of custom environmental variables
-* express - Make life Easier for creating backend services
-* express-rate-limit - prevent dos/ddos and high volume access to server
-* nodemailer - use to send out email
-* validator - library for validating and sanitizes strings. Can be use with mongoose model validate.
-* morgan - for logging purpose
-* mongoose - ODM for mongoDB and nodeJS
-* jsonwebtoken - JWT provide a way of authorization for users
-* express-mongo-sanitize - prevent query attack for mongoDB by removing all dots and dollar sign.
-* xss-clean - sanitization for input by cleaning malicious code from inputs
-* hpp - http parameter pollution prevention middleware, the result will be using the last parameter. takes in a whitelist array
-* cookie-parser - read cookie
-* multer - file uploading
-* sharp - image resizing
-* html-to-text - strip all html and converting to text
-* compression - compress all response and text to client
-* cors - allow cross origin resource sharing
-* bootstrap - css library
-* faker - populating with fake data
-* tailwindcss - css library
-* react-spring - for animation and mounting
-* radium - allow inline style with sudo and media query for react
-* style-components - similiar to radium to facilitate css
-* prop-types - define type of data and expected input
-* redux - state management
-* react-redux - using redux in react
-* redux-thunk - asynchronous redux
-* axios - simplify https requests
-* jest - Test runner
-* enzyme - testing library which allow for unit testing without rendering entire component
-* enyzme-adapter-react-16 - react testing with enzyme
-* react-test-renderer - react test library
-* mysql2 - db driver to mysql
-* sequelize - Object Relation Mapper which map json data into sql queries
+**Today's Progress**:
+
+- working with mongoose package
+
+### Note
+
+- mongoose item can return a .\_doc which give details of all the document, combine this with a spread operator [...mongooseItem._doc] return an array with all the document
+
+# Day 46: July 13, 2020
+
+**Today's Progress**:
+
+- Reading ExpressJS documentation
+- Working with express and cookie
+
+### Note
+
+- both - and . are taken as string in express url, we can use query.params on /website/:from-:to resulting in {from: xx, to: xx}.
+- calling next('route') will skip to the next route in the stack while calling next('router') will exit the stack and goes to the next route
+
+<hr/>
+
+This is a collection of middleware that i think is useful for every project.
+
+<code>
+
+- nodemon - Must have application for development for auto restarting of servers
+- helmet - Inclusion of HTTP-headers for security purpose
+- bcryptjs - Salting and hashing of password
+- dotenv - allow the use of custom environmental variables
+- express - Make life Easier for creating backend services
+- express-rate-limit - prevent dos/ddos and high volume access to server
+- nodemailer - use to send out email
+- validator - library for validating and sanitizes strings. Can be use with mongoose model validate.
+- morgan - for logging purpose
+- mongoose - ODM for mongoDB and nodeJS
+- jsonwebtoken - JWT provide a way of authorization for users
+- express-mongo-sanitize - prevent query attack for mongoDB by removing all dots and dollar sign.
+- xss-clean - sanitization for input by cleaning malicious code from inputs
+- hpp - http parameter pollution prevention middleware, the result will be using the last parameter. takes in a whitelist array
+- cookie-parser - read cookie
+- multer - file uploading
+- sharp - image resizing
+- html-to-text - strip all html and converting to text
+- compression - compress all response and text to client
+- cors - allow cross origin resource sharing
+- bootstrap - css library
+- faker - populating with fake data
+- tailwindcss - css library
+- react-spring - for animation and mounting
+- radium - allow inline style with sudo and media query for react
+- style-components - similiar to radium to facilitate css
+- prop-types - define type of data and expected input
+- redux - state management
+- react-redux - using redux in react
+- redux-thunk - asynchronous redux
+- axios - simplify https requests
+- jest - Test runner
+- enzyme - testing library which allow for unit testing without rendering entire component
+- enyzme-adapter-react-16 - react testing with enzyme
+- react-test-renderer - react test library
+- mysql2 - db driver to mysql
+- sequelize - Object Relation Mapper which map json data into sql queries
 
 </code>
