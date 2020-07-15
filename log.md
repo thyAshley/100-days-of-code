@@ -774,6 +774,31 @@ One quarter done with this 100 day challenge, so far i am prefering to deal with
 - both - and . are taken as string in express url, we can use query.params on /website/:from-:to resulting in {from: xx, to: xx}.
 - calling next('route') will skip to the next route in the stack while calling next('router') will exit the stack and goes to the next route
 
+# Day 47: July 14, 2020
+
+**Today's Progress**:
+
+- working with session with express-session
+- session stored in mongodb with connect-mongodb-session
+- destroying session stored
+- authentication
+
+### Note
+
+- use session.save() to make sure that the session has been save before continuing, problem occur when session is not saved before redirecting
+
+# Day 48: July 15, 2020
+
+**Today's Progress**:
+
+- Protect middleware to protect certain routes
+- learning about CSRF
+
+### Note
+
+- use protect middleware to prevent user from entering the route, hiding the route does not prevent user from entering the route
+- spend too much time on trying to implement CSRF, CSURF middleware must be called after bodyparser.
+
 <hr/>
 
 This is a collection of middleware that i think is useful for every project.
@@ -817,5 +842,8 @@ This is a collection of middleware that i think is useful for every project.
 - react-test-renderer - react test library
 - mysql2 - db driver to mysql
 - sequelize - Object Relation Mapper which map json data into sql queries
+- express-session - working with session and cookies
+- connect-mongodb-session - store session in mongodb
+- csurf - use to generate CSRF token
 
 </code>
