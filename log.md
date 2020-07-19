@@ -799,6 +799,53 @@ One quarter done with this 100 day challenge, so far i am prefering to deal with
 - use protect middleware to prevent user from entering the route, hiding the route does not prevent user from entering the route
 - spend too much time on trying to implement CSRF, CSURF middleware must be called after bodyparser.
 
+# Day 49: July 16, 2020
+
+**Today's Progress**:
+
+- working with connect-flash to store temporary data in session
+- sending email with nodemailer and sendgrid api
+
+### Note
+
+- if we do not store information in session, the information will be lost if we redirect the user
+- when working with session storing, use session.save to make sure item is save before redirecting, this will prevent unwanted behavior such as rendering of page before session is updated
+
+# Day 50: July 17, 2020
+
+**Today's Progress**:
+
+- recapping class component in react
+
+# Day 51: July 18, 2020
+
+**Today's Progress**:
+
+- working with validators in express application
+- working with custom validator
+- Typescript with nodejs
+- created a simple crud on nodejs with typescript
+
+### Note
+
+- @types/node is save as dev-dependency as typescript is a dev env feature
+
+# Day 52: July 19, 2020
+
+**Today's Progress**:
+
+- Working on a fullstack application using MERN stack and typescript
+
+### Note
+
+- using typescript, so far it seem to be slowing down development time due to unfamiliarity
+
+# Day 53: July 20, 2020
+
+**Today's Progress**:
+
+- developing API for social network application
+
 <hr/>
 
 This is a collection of middleware that i think is useful for every project.
@@ -812,6 +859,7 @@ This is a collection of middleware that i think is useful for every project.
 - express - Make life Easier for creating backend services
 - express-rate-limit - prevent dos/ddos and high volume access to server
 - nodemailer - use to send out email
+- nodemailer-sendgrid-transport - use with sendgrid and nodemailer
 - validator - library for validating and sanitizes strings. Can be use with mongoose model validate.
 - morgan - for logging purpose
 - mongoose - ODM for mongoDB and nodeJS
@@ -845,5 +893,6 @@ This is a collection of middleware that i think is useful for every project.
 - express-session - working with session and cookies
 - connect-mongodb-session - store session in mongodb
 - csurf - use to generate CSRF token
+- connect-flash - use for storing data which is shown to user before removing
 
 </code>
