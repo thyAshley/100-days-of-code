@@ -846,6 +846,56 @@ One quarter done with this 100 day challenge, so far i am prefering to deal with
 
 - developing API for social network application
 
+### Note
+
+- Felt that i am not using any best practice on typescript, would have to look into courses with typescript as the core.
+- findById return a query while findOne return a promise.
+
+# Day 54: July 21, 2020
+
+**Today's Progress**:
+
+- working on API for socal network application with typescript, express and react
+- using concurrently package to for development of react along with express
+- working with redux and react
+
+### Note
+
+- to learn about TDD for development
+
+# Day 55: July 22, 2020
+
+**Today's Progress**:
+
+- Working with frontend of social network application
+
+# Day 56: July 23, 2020
+
+**Today's Progress**:
+
+- creating private route on application
+
+### Note
+
+- route component render has access to path parameter
+
+# Day 57: July 24, 2020
+
+**Today's Progress**:
+
+- Working on frontend of mern project
+
+# Day 58: July 25, 2020
+
+**Today's Progress**:
+
+- created forms where user can set their own detail in application.
+
+### Note
+
+- To standardize return message format of APIs, faced many issue trying to fix the message format as i did not standardize it in the beginning.
+- To add loading and not loading to redux reducer state to make sure item does not get rendered when loading.
+
 <hr/>
 
 This is a collection of middleware that i think is useful for every project.
@@ -894,5 +944,6 @@ This is a collection of middleware that i think is useful for every project.
 - connect-mongodb-session - store session in mongodb
 - csurf - use to generate CSRF token
 - connect-flash - use for storing data which is shown to user before removing
+- concurrently - allow multiple args in terminal
 
 </code>
