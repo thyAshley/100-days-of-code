@@ -896,6 +896,19 @@ One quarter done with this 100 day challenge, so far i am prefering to deal with
 - To standardize return message format of APIs, faced many issue trying to fix the message format as i did not standardize it in the beginning.
 - To add loading and not loading to redux reducer state to make sure item does not get rendered when loading.
 
+# Day 58: July 26, 2020
+
+**Today's Progress**:
+
+- Finish with MVP with social application.
+
+### Note
+
+- tried to deploy application to heroku but was faced with lots of error causing the application crash.
+- decided that i will move on to improve my basic skills before trying to deploy the application again.
+- at day 58, i feel pretty comfortable working with nodejs, express and react after 2 month of learning.
+- for the next part of the 100 day challenge, i will continue on improving my foundation as well as picking up graphql and sql as well as css designs.
+
 <hr/>
 
 This is a collection of middleware that i think is useful for every project.
