@@ -896,7 +896,7 @@ One quarter done with this 100 day challenge, so far i am prefering to deal with
 - To standardize return message format of APIs, faced many issue trying to fix the message format as i did not standardize it in the beginning.
 - To add loading and not loading to redux reducer state to make sure item does not get rendered when loading.
 
-# Day 58: July 26, 2020
+# Day 59: July 26, 2020
 
 **Today's Progress**:
 
@@ -908,6 +908,80 @@ One quarter done with this 100 day challenge, so far i am prefering to deal with
 - decided that i will move on to improve my basic skills before trying to deploy the application again.
 - at day 58, i feel pretty comfortable working with nodejs, express and react after 2 month of learning.
 - for the next part of the 100 day challenge, i will continue on improving my foundation as well as picking up graphql and sql as well as css designs.
+
+# Day 60: July 27, 2020
+
+**Today's Progress**:
+
+- Learning typescript from scratch
+
+### Note
+
+- private class can only be use inside class
+- importing in typescript require .js
+
+# Day 61: July 28, 2020
+
+**Today's Progress**:
+
+- working with postgresql and knex
+- working on a MERN stack application for uploading and sharing photos
+
+# Day 62: July 29, 2020
+
+**Today's Progress**:
+
+- working on photo sharing site
+- working with ReactDOM Portal
+
+# Day 63: July 30, 2020
+
+**Today's Progress**:
+
+- react hooks learning, useState and useEffect
+
+# Day 64: August 3, 2020
+
+Took a 3 day break to recharge as my school is starting soon.
+
+**Today's Progress**:
+
+- working on a fullstack application tutorial with typescript due to unfamiliarity with working with typescript.
+- learning about graphQL
+- building a backend with express and graphQL
+- using graphiql to test queries
+
+### Note
+
+- typescript is installed as development dependency
+- graphQL != json, it is a query language
+- graphiql is a query gui for testing graphql
+
+# Day 65: August 4, 2020
+
+- working with graphQL and Apollo
+- composing queries
+- working with deploying graphql on the frontend with apollo and react-apollo
+- learning tailwind
+
+### Note
+
+- Apollo help bind graphQL to frontend
+
+# Day 66: August 5, 2020
+
+- Learning tailwindcss
+- tailwind configs
+- @apply directive
+
+# Day 67: August 6, 2020
+
+- Working with tailwindcss
+
+# Day 68: August 7, 2020
+
+- Working with tailwindcss and customizing design
+- working with mocha chai and nodejs
 
 <hr/>
 
