@@ -2,75 +2,96 @@
 
 This is my progress log for my 100 days of learning code challenge. I will update my goals as i progress through learning web development.
 
-**=== Major Projects===**
-
-<table>
-    <tr>
-        <th>Application</th>
-        <th>Username</th>
-        <th>Password</th>
-        <th>Tools Used</th>
-    </tr>
-    <tr>
-        <td>
-            <a href="https://natoursbooking.herokuapp.com/">Tour Booking Application</a>
-        </td>
-        <td>leo@example.com</td>
-        <td>test1234</td>
-        <td>Node, Express, Mongo, EJS, Heroku, Json Web Token</td>
-    </tr>
-    <tr>
-        <td>
-            <a href="https://burgerapp-b32e1.web.app/">Burger Builder Application</a>
-        </td>
-        <td>test@test.com</td>
-        <td>123123123</td>
-        <td>React, Redux, Firebase, JestJS</td>
-    </tr>
-</table>
-
 **==== GOALS ====**
 
-To learn about fullstack development over and beyond this 100 days
+My personal goals that i want to achieved.
 
 <table>
 <thead>
     <th>Topic</th>
     <th>Status</th>
-    <th>Topics</th>
 </thead>
 <tbody>
-    <tr>
-        <td rowspan="3">NodeJS</td>
-        <td rowspan="1">Completed</td>
-        <td rowspan="1">To Do List</td>
-    </tr>
-    <tr>
-        <td rowspan="1">Completed (to re-do)</td>
-        <td rowspan="1">Tour Booking</td>
-    </tr>
-        <tr>
-        <td rowspan="1">Not Started</td>
-        <td rowspan="1">PassportJS</td>
-    </tr>
-    <tr>
-        <td>ReactJS</td>
-        <td>Completed</td>
-    </tr>
-    <tr>
-        <td>Dot Net C#</td>
-        <td>Not Started</td>
-    </tr>
-    </td>
-    <tr>
-        <td rowspan="2">Javascript</td>
-        <td rowspan="1">Not Started</td>
-        <td rowspan="1">Async and Promises</td>
-    </tr>
-    <tr>
-        <td rowspan="1">Not Started</td>
-        <td rowspan="1">Regex</td>
-    </tr>
+<tr>
+    <td>NodeJs</td>
+    <td>Completed</td>
+</tr>
+<tr>
+    <td>ExpressJS</td>
+    <td>Completed</td>
+</tr>
+<tr>
+    <td>ReactJS</td>
+    <td>Completed</td>
+</tr>
+<tr>
+    <td>GraphQL</td>
+    <td>Completed</td>
+</tr>
+<tr>
+    <td>Testing with React</td>
+    <td>Not Started</td>
+</tr>
+<tr>
+    <td>Testing with Nodejs</td>
+    <td>Not Started</td>
+</tr>
+<tr>
+    <td>Mocha, Chai, Supertest</td>
+    <td>Not Started</td>
+</tr>
+<tr>
+    <td>SQL</td>
+    <td>Not Started</td>
+</tr>
+<tr>
+    <td>Tailwind CSS</td>
+    <td>Completed</td>
+</tr>
+<tr>
+    <td>CSS Recap</td>
+    <td>Not Started</td>
+</tr>
+<tr>
+    <td>TDD and BDD</td>
+    <td>Not Started</td>
+</tr>
+<tr>
+    <td>MaterialUI and BootStrap</td>
+    <td>Not Started</td>
+</tr>
+<tr>
+    <td>PostgresQL</td>
+    <td>Not Started</td>
+</tr>
+<tr>
+    <td>VueJS</td>
+    <td>Not Started</td>
+</tr>
+<tr>
+    <td>Selenium and CucumberJS</td>
+    <td>Not Started</td>
+</tr>
+<tr>
+    <td>Dockers and Kubernates</td>
+    <td>Not Started</td>
+</tr>
+<tr>
+    <td>Dot Net Core and ASP.NET</td>
+    <td>Not Started</td>
+</tr>
+<tr>
+    <td>Authentication Methods</td>
+    <td>Not Started</td>
+</tr>
+<tr>
+    <td>Sockets and web scrapping</td>
+    <td>Not Started</td>
+</tr>
+<tr>
+    <td>Authentication Methods</td>
+    <td>Not Started</td>
+</tr>
 </tbody>
 </table>
 
@@ -983,54 +1004,74 @@ Took a 3 day break to recharge as my school is starting soon.
 - Working with tailwindcss and customizing design
 - working with mocha chai and nodejs
 
+# Day 69: August 10, 2020
+
+- Testing with red-green testing in react
+- writing test in react with enzyme and jest
+- BDD with React
+
+# Day 70: August 12, 2020
+
+- Typescript with React
+- working with react Hooks
+
+# Day 71: August 13, 2020
+
+- Infinite Scrolling with react
+- diving into react hooks
+- react test library
+
+# Day 72: August 14, 2020
+
+- React Hooks
+- UseContext, useReducer and global state management
+
+# Day 73: August 16, 2020
+
+- React Hooks
+
+# Day 74: August 17, 2020
+
+- Working with React projects and typescript
+
+# Day 75: August 19, 2020
+
+- working with typescript and react router.
+- stuck with typescript
+
+# Day 76: August 21, 2020
+
+- learning typescript with react
+- learning overall typescript interfaces and type
+
+# Day 77: August 22, 2020
+
+- continue learning typescript with react
+
+# Day 78: August 23, 2020
+
+- working with typescript and react, completed leveluptut for typescript
+
+# Day 79: August 24, 2020
+
+- Sequelize and Nodejs
+
+# Day 80: August 26, 2020
+
+- building a restaurant app with postgres backend
+- using useHistory hook
+
+# Day 81: August 27, 2020
+
+- stop propagation, continue with restaurant app
+- SQL foreign key
+
+# Day 82: August 29, 2020
+
+- completing app with PERN stack
+
+# Day 83: August 30, 2020
+
+- NextJS
+
 <hr/>
-
-This is a collection of middleware that i think is useful for every project.
-
-<code>
-
-- nodemon - Must have application for development for auto restarting of servers
-- helmet - Inclusion of HTTP-headers for security purpose
-- bcryptjs - Salting and hashing of password
-- dotenv - allow the use of custom environmental variables
-- express - Make life Easier for creating backend services
-- express-rate-limit - prevent dos/ddos and high volume access to server
-- nodemailer - use to send out email
-- nodemailer-sendgrid-transport - use with sendgrid and nodemailer
-- validator - library for validating and sanitizes strings. Can be use with mongoose model validate.
-- morgan - for logging purpose
-- mongoose - ODM for mongoDB and nodeJS
-- jsonwebtoken - JWT provide a way of authorization for users
-- express-mongo-sanitize - prevent query attack for mongoDB by removing all dots and dollar sign.
-- xss-clean - sanitization for input by cleaning malicious code from inputs
-- hpp - http parameter pollution prevention middleware, the result will be using the last parameter. takes in a whitelist array
-- cookie-parser - read cookie
-- multer - file uploading
-- sharp - image resizing
-- html-to-text - strip all html and converting to text
-- compression - compress all response and text to client
-- cors - allow cross origin resource sharing
-- bootstrap - css library
-- faker - populating with fake data
-- tailwindcss - css library
-- react-spring - for animation and mounting
-- radium - allow inline style with sudo and media query for react
-- style-components - similiar to radium to facilitate css
-- prop-types - define type of data and expected input
-- redux - state management
-- react-redux - using redux in react
-- redux-thunk - asynchronous redux
-- axios - simplify https requests
-- jest - Test runner
-- enzyme - testing library which allow for unit testing without rendering entire component
-- enyzme-adapter-react-16 - react testing with enzyme
-- react-test-renderer - react test library
-- mysql2 - db driver to mysql
-- sequelize - Object Relation Mapper which map json data into sql queries
-- express-session - working with session and cookies
-- connect-mongodb-session - store session in mongodb
-- csurf - use to generate CSRF token
-- connect-flash - use for storing data which is shown to user before removing
-- concurrently - allow multiple args in terminal
-
-</code>
