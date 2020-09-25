@@ -1072,6 +1072,70 @@ Took a 3 day break to recharge as my school is starting soon.
 
 # Day 83: August 30, 2020
 
-- NextJS
+- NextJS and React
+
+# Day 84: August 31, 2020
+
+- Working with React
+
+# Day 85: September 1, 2020
+
+- Learning basic of C#
+
+# Day 86: September 2, 2020
+
+- Working on a trello clone with typescript and react
+
+# Day 87: September 3, 2020
+
+- Working on a trello clone with typescript and react
+
+# Day 88: September 7, 2020
+
+- Learning react-testing library
+- query vs getby result in null or error if not found
+- user, fireEvent
+- rerendering
+
+# Day 89: September 8, 2020
+
+- Unit testing with react testing library
+
+# Day 90: September 12, 2020
+
+- Learning about postgresql and pgadmin
+- Create database, table, CRUD operations in table
+- working with select queries
+
+# Day 91: September 19, 2020
+
+- mastering PSQL and SQL aggregation
+
+# Day 92: September 21, 2020
+
+- finishing Postgresql basics and continuation of react-testing library
+
+# Day 93: September 22, 2020
+
+- snapshot testing with react-testing library and completing testing course
+- Starting on react native
+
+# Day 94: September 23, 2020
+
+- React Native FlatList, Text, View, StyleSheet
+- working with images and assets with react native
+- working with useState in react native
+
+# Day 94: September 24, 2020
+
+- Working with React Native, Positioning, Flex and Box-Model
+- React Native useReducer
+
+# Day 95: September 25, 2020
+
+- working on a restaurant search app on react native with yelp api
+- getParam in Navigation,
+- Completed Restaurant app and started working on a blog app
+- Built Redux component
 
 <hr/>
