@@ -1138,4 +1138,49 @@ Took a 3 day break to recharge as my school is starting soon.
 - Completed Restaurant app and started working on a blog app
 - Built Redux component
 
+# Day 96: September 26, 2020
+
+- working on blog application
+- Using navigationOptions to add additional item into navigation
+- defaultProps
+- working with jsonserver and running localserver on ngrox
+- recap on express and mongodb by setting up backend for map tracking app
+
+# Day 97: September 27, 2020
+
+- continue working on map tracking application.
+- completing backend server
+- learning navigation v5
+
+# Day 98: September 29, 2020
+
+- AsyncStorage and connecting backend to react native frontend
+- working on react native portion of tracker application
+- SafeAreaView from react-navigation
+- working with MapView and foreground tracking
+- react navigation focus and blur
+
+# Day 99: September 30, 2020
+
+- React Native Platform specific styles
+
+# Day 100: October 1, 2020
+
+- working with formik and yup, building a marketplace app with react native
+
+Hit 100 days of learning coding, have experience using React, React Native, Nodejs, GraphQL, building a backend and frontend so far. Will continue to learning to code but rather than learning something new, i will be focusing on doing project and working on applications using what i have learn.
+
+# Day 101: October 2, 2020
+
+- working on react navigation v5 for marketplace app
+
+# Day 102: October 3, 2020
+
+- react native debugger and simulating connection.
+- connecting backend api to frontend
+
+# Day 103: October 4, 2020
+
+- offline capability app
+
 <hr/>
