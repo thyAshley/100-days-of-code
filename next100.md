@@ -8,26 +8,28 @@ The old file was getting long, created a new file with a fresh start for the nex
 - React Native - [ x ]
 - MongoDB - [ x ]
 - PostgreSQL - [ x ]
+- SQL - [ x ]
 
 My goal in the next 100 days (From highest to lowest priority):
 The new list consist of testing methodology, dockers, kubernate and is not just focusing on coding.
 
 > - Typescript - [ X ]
-> - Building React and React Native Projects with MERN and PERN - [ 1 ]
+> - Building React and React Native Projects with MERN and PERN - [ 2 ]
+> - NestJS - [ ]
 > - Testing in React - [ ]
 > - Testing in Node - [ ]
 > - Typescript with React - [ 1 ]
 > - Typescript with React Native - [ ]
-> - Typescript with Node & Express - [ 1 ]
+> - Typescript with Node & Express - [ 2 ]
 > - GraphQL - [ ]
 > - Socket IO - [ ]
-> - Cypress Testing - [ ]
+> - Cypress Testing - [ O ]
 > - Webpack - [ O ]
 > - Sass - [ ]
-> - C# - [ ]
+> - .NET Framework - [ O ]
 > - ASP.Net - [ ]
-> - Dockers - [ O ]
-> - Kubernetes - [ ]
+> - Dockers - [ X ]
+> - Kubernetes - [ X ]
 > - NextJS - [ ]
 
 ## 6th October 2020 - Day 1
@@ -194,3 +196,156 @@ Reset to day one due to missing out too many day, will be clearing my school stu
 
 - Dockers
   - working with yaml file and docker compose for deployment of fullstack nodejs/react/mongo application
+  - working with utility container, so we don't need to install all dependency on host machine
+
+## 10th November 2020 - Day 5
+
+> Tech: Dockers
+
+- Docker
+  - Deployment on AWS
+  - building images locally and deploying using docker hub on EC2
+  - Automating docker deployment with ECS
+
+> Tech: Kubernetes
+
+- Kubernetes
+  - Introduction to Kubernetes
+
+> Tech: React
+
+- Epic React Course
+  - Complete React Fundamentals
+  - Started React Hooks Fundamentals
+
+## 11th November 2020 - Day 6
+
+> Tech: Kubernetes
+
+- Kubernetes
+  - Pods, worker node
+  - deployment on kubectl
+  - creating services and exposing port
+  - scaling pods with replica
+  - update images, change of tag number
+  - imperative and declarative method for k8
+  - merging of yaml file into one single file, matchedExpressions
+  - liveness probe
+
+> Tech: Cypress
+
+- Cypress Testings [End to End Testing]
+  - Started learning cypress automation framework
+  - Setup cypress, demo run of cypress
+  - cypress configurations
+  - saving variables
+  - child and parent element
+  - wrap function
+
+## 12th November 2020 - Day 7
+
+> Tech: Kubernetes
+
+- Kubernetes
+  - volumes
+  - persistent volume claims
+  - emptyDir, hostPath, CSI, persistent volumes
+
+> Tech: Cypress
+
+- Cypress
+  - click, type, check, select, clear
+
+## 13th November 2020 - Day 8
+
+> Tech: Kubernetes
+
+- Kubernetes
+  - claims
+
+> Tech: Cypress
+
+- Cypress
+  - cypress folder setup, documentations
+  - css selectors
+
+## 14th November 2020 - Day 9
+
+> Tech: Cypress
+
+- cypress
+  - xpath basics
+  - working with chaining commands
+  - sync and async cypress
+  - cypress as promises
+
+> Tech: Mongo, Express, Nodejs
+
+- Restaurant App
+  - start development of backend for restaurant app
+  - added seed data, created typescript models
+
+## 16th November 2020 - Day 10
+
+> Tech: Mongo, Express, Nodejs
+
+- Restaurant App
+  - added auth and error middleware
+  - creating booking api
+
+> Tech: Cypress
+
+- Cypress
+  - Chaining cypress, jquery with cypress
+  - each iterations
+
+## 19th November 2020 - Day 11
+
+> Tech: Mongo, Express, Nodejs, React Native
+
+- Restaurant App
+  - Added login and register page
+  - added api for file uploading
+  - added error handling middleware
+  - Added Auth and routing after logging in
+
+## 20th November 2020 - Day 12
+
+> Tech: Cypress
+
+- Cypress
+  - Aliases
+  - Iterations
+  - Invokes
+
+## 23rd November 2020 - Day 13
+
+> Tech: Mongo, Express, Nodejs, React Native
+
+- Restaurant App
+  - Added booking, home page frontend
+  - adjust api to give both past and upcoming bookings
+  - added cancel booking api
+
+> Tech: Cypress
+
+- Cypress
+  - Learning core of cypress, same origin policy
+  - Navigation
+  - Invoke to remove attribute
+  - iFrames
+
+> Tech: .NET Core
+
+- .Net Core
+  - Basics of Visual Code
+  - Hello World App
+  - String Interpolations
+
+## 25th November 2020 - Day 14
+
+> Tech: Cypress
+
+- Cypress
+  - Mouse Events
+  - Traversal
