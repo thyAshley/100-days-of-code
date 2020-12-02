@@ -16,9 +16,9 @@ The new list consist of testing methodology, dockers, kubernate and is not just 
 > - Typescript - [ X ]
 > - Building React and React Native Projects with MERN and PERN - [ 2 ]
 > - NestJS - [ ]
-> - Testing in React - [ ]
-> - Testing in Node - [ ]
-> - Typescript with React - [ 1 ]
+> - Testing in React - [ O ]
+> - Testing in Node - [ O ]
+> - Typescript with React - [ 2 ]
 > - Typescript with React Native - [ ]
 > - Typescript with Node & Express - [ 2 ]
 > - GraphQL - [ ]
@@ -31,6 +31,8 @@ The new list consist of testing methodology, dockers, kubernate and is not just 
 > - Dockers - [ X ]
 > - Kubernetes - [ X ]
 > - NextJS - [ ]
+> - Regex - [ X ]
+> - Sass - [ O ]
 
 ## 6th October 2020 - Day 1
 
@@ -349,3 +351,103 @@ Reset to day one due to missing out too many day, will be clearing my school stu
 - Cypress
   - Mouse Events
   - Traversal
+
+> Others: Clean Code
+
+- Concept of Clean Codes
+
+> Tech: Mongo, Express, Nodejs, React Native
+
+- Restaurant App
+  - Adding Booking Page
+  - Allow user to make booking, remove booking, rerender booking when new booking are made
+  - Passing props with react navigation
+
+## 26th November 2020 - Day 15
+
+> Tech: Cypress
+
+- Looping iterations, handling data
+- Cypress file upload package
+- Mocha Hooks
+- Fixtures
+
+> Tech: Regex
+
+- Reviewing Regex
+- Look Ahead, Look Behind
+- Global, Case Insensitive, multiline
+
+## 27th November 2020 - Day 16
+
+> Tech: Cypress
+
+- Fixture and data driven testing
+- Custom Functions
+- Cypress Config
+
+> Tech: React
+
+- UUID
+- css modules
+- Sass with react
+- Build a music player with typescript and React
+
+> Tech: SaSS
+
+- Learning about SaSS and building app with SaSS
+
+## 29th November 2020 - Day 17
+
+> Tech: Cypress
+
+- Env variables
+
+> Tech: React
+
+- Complete music player app
+
+> Tech: .Net Framework
+
+- Conditionals
+
+## 30th November 2020 - Day 18
+
+> Tech: SQL/NodeJS/Typescript/Jest
+
+- Working with sequelize and typescript
+- testing backend route and database result
+- express validators
+
+> Tech: React Native
+
+- Added review page
+
+> Tech: Cypress
+
+- Page Object Modeling
+
+## 1st December 2020 - Day 19
+
+> Tech: SQL/NodeJS/Typescript/Jest
+
+- continue working with registration page and tests
+- mocking with jest
+
+> Tech: Cypress
+
+- customize timeout, explicit timeout and assertion timeout
+- pause, wait
+- localstorage and cookies
+- dashboards
+
+> React/Typescript
+
+- Create a generic portfolio site
+- Working with Styled Components
+
+## 2nd December 2020 - Day 20
+
+> Tech: SQL/NodeJS/Typescript/Jest
+
+- custom error handling middleware
