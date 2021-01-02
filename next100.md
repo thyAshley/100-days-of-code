@@ -2,37 +2,37 @@
 
 The old file was getting long, created a new file with a fresh start for the next 100 days challenge. During the first 100 days i have completed and feel comfortable working with the following:
 
-- Javascript - [ x ]
-- NodeJs - [ x ]
-- ReactJs - [ x ]
-- React Native - [ x ]
-- MongoDB - [ x ]
-- PostgreSQL - [ x ]
-- SQL - [ x ]
+- Javascript - [ ✔ ]
+- NodeJs - [ ✔ ]
+- ReactJs - [ ✔ ]
+- React Native - [ ✔ ]
+- MongoDB - [ ✔ ]
+- PostgreSQL - [ ✔ ]
+- SQL - [ ✔ ]
 
 My goal in the next 100 days (From highest to lowest priority):
 The new list consist of testing methodology, dockers, kubernate and is not just focusing on coding.
 
-> - Typescript - [ X ]
-> - Building React and React Native Projects with MERN and PERN - [ 2 ]
-> - NestJS - [ ]
-> - Testing in React - [ O ]
-> - Testing in Node - [ O ]
-> - Typescript with React - [ 2 ]
-> - Typescript with React Native - [ ]
-> - Typescript with Node & Express - [ 2 ]
-> - GraphQL - [ ]
-> - Socket IO - [ ]
-> - Cypress Testing - [ O ]
-> - Webpack - [ O ]
-> - Sass - [ ]
-> - .NET Framework - [ O ]
-> - ASP.Net - [ ]
-> - Dockers - [ X ]
-> - Kubernetes - [ X ]
-> - NextJS - [ ]
-> - Regex - [ X ]
-> - Sass - [ O ]
+> - Typescript - [ ✔ ]
+> - Building React and React Native Projects with MERN and PERN - [ 6 ]
+> - Testing in React - [ ⭕ ]
+> - Testing in Node - [ ✔ ]
+> - Typescript with React - [ 5 ]
+> - Typescript with Node & Express - [ 4 ]
+> - Cypress Testing - [ ✔ ]
+> - Webpack - [ ✔ ]
+> - Sass - [ ✔ ]
+> - Dockers - [ ✔ ]
+> - Kubernetes - [ ✔ ]
+> - Regex - [ ✔ ]
+> - NestJS - [ ⭕ ]
+> - .NET Framework - [ ⭕ ]
+> - GraphQL - [ ⭕ ]
+> - Socket IO - [ ⭕ ]
+> - React Query - [ ✔ ]
+> - NextJS - [ ⭕ ]
+
+> - ASP.Net - [ ❌ ]
 
 ## 6th October 2020 - Day 1
 
@@ -451,3 +451,283 @@ Reset to day one due to missing out too many day, will be clearing my school stu
 > Tech: SQL/NodeJS/Typescript/Jest
 
 - custom error handling middleware
+- added smtp server for testing
+
+> React/Typescript
+
+- work with react framer motion and page transition
+
+## 3rd December 2020 - Day 21
+
+> React/Typescript
+
+- work with react framer motion and page transition
+
+> Tech: SQL/NodeJS/Typescript/Jest
+
+- mocking pagination
+
+## 4th December 2020 - Day 22
+
+> Tech: SQL/NodeJS/Typescript/Jest
+
+- mocking get user functionality
+- extending error interface, practicing testing with supertest
+- test for updating user with auth
+
+> React/Typescript
+
+- working with framer motion
+- react intersection observer
+
+## 5th December 2020 - Day 23
+
+> Tech: React Native
+
+- Continue working on restaurant app, added function for registering as a business owner
+
+> Tech: SQL/NodeJS/Typescript/Jest
+
+- updating auth method with JWT from basic authentication
+- create custom token
+
+## 6th December 2020 - Day 24
+
+> Tech: SQL/NodeJS/Typescript/Jest
+
+- cascade association between database with sequelize
+- expiring tokens, auto refresh token
+- cleanup token
+- password reset
+
+> Tech: React Native
+
+- adding functionalities to booking page and linking api to register users
+
+## 7th December 2020 - Day 25
+
+> Tech: React Native
+
+- adding register restaurant page to app
+- added imagepicker
+
+> Tech: SQL/NodeJS/Typescript/Jest
+
+- adding test for forgot password
+- added test for uploading images
+- create folder services and uploading and storing images in local
+
+## 8th December 2020 - Day 26
+
+> Tech: React Native
+
+- create restaurant creation page
+
+> Tech: SQL/NodeJS/Typescript/Jest
+
+- adding test to limit file size and file type
+- using sequelize cli for migration
+
+## 9th December 2020 - Day 27
+
+> Tech: React Native
+
+- upload images in restaurant creation
+
+> Tech: React/Typescript/React Testing Library
+
+- start building test for frontend register page
+
+> Tech: SQL/NodeJS/Typescript/Jest
+
+- added post test, looking at github actions
+
+## 11th December 2020 - Day 28
+
+> Tech: React Native
+
+- linking api to allow file upload in app, saving file upload to backend server
+
+> Tech: SQL/NodeJS/Typescript/Jest
+
+- added test for adding multiform upload files
+- complete posting test.
+
+## 12th December 2020 - Day 29
+
+> Tech: SQL/NodeJS/Typescript/Jest
+
+- removing multer filetype and using file-type library
+- association testing between post and user
+
+> Tech: NestJS
+
+- setting up with nest cli
+- routing and params
+- Providers and Controllers
+- Validations
+- mapped type
+
+> Tech: PUG
+
+- working with PUG template engine
+
+## 13th December 2020 - Day 30
+
+> Tech: NestJS
+
+- TypeORM setup
+
+> Youtube
+
+- Express Backend development
+- working with pug templates and routing with template
+- Content Security Policy
+
+## 14th December 2020 - Day 31
+
+> Tech: React Native
+
+- added more feature and apis
+
+> Youtube
+
+- add crud function to adding videos
+- upload media with multers
+- webpack cli
+- passport, serialization, deserialization
+
+## 15th December 2020 - Day 32
+
+> Youtube
+
+- session storage
+- passport auth with github and facebook
+- aws s3 buckets for multer
+
+## 16th December 2020 - Day 33
+
+> Clonetube
+
+- Started Clonetube project for portfolio.
+
+## 18th December 2020 - Day 34
+
+> Data & Algos
+
+- Big O Notations
+
+> Tech: React Native
+
+- Added functionalities to restaurant app
+
+## 20th December 2020 - Day 35
+
+> Clonetube
+
+- Added sequelize ORM with postgresql
+- Added tests for route, error handling middleware, validation middleware
+
+> Restaurant App with React Native
+
+- Wrapping up app functionalities
+
+## 21st December 2020 - Day 36
+
+> GraphQL / Express / Typescript
+
+- Uberclone
+- working with graphql backend with yoga
+
+> GraphQL
+
+- learning graphql from scratch
+
+## 22th December 2020 - Day 37
+
+> GraphQL
+
+- Registration, mutations, query
+- Authentication Middleware
+
+> SocketIO
+
+- sequelize CLI
+
+## 23th December 2020 - Day 38
+
+> SocketIO
+
+- building api backend for chating app (registration and login)
+
+## 25tth December 2020 - Day 39
+
+> SocketIO
+
+- building react frontend for registration page
+- setting up of redux
+- Protected Routing
+
+## 26th December 2020 - Day 40
+
+> SocketIO Chatapp
+
+- Adding fontawesome fonts
+
+## 27th December 2020 - Day 41
+
+> SocketIO Chatapp
+
+- User profile update function
+
+## 28th December 2020 - Day 42
+
+> SocketIO Chatapp
+
+- building models and picture uploading
+
+## 29th December 2020 - Day 43
+
+> SocketIO Chatapp
+
+- setting up sequelize
+
+> Typescript
+
+- Generics
+
+## 30th December 2020 - Day 44
+
+> React Querys
+
+- using useQuery hooks
+- react query dev tools and configurations
+
+> Authentications
+
+- cookies config httponly, https
+
+## 31st December 2020 - Day 45
+
+> NextJS
+
+- NextJS introduction
+- Server and client side rendering
+- routing, linking component, nested and dynamic routing
+- \_document and \_app
+- css in next
+- apis
+- catch route and custom 404
+- dynamic path and static props, static path
+- staticprops, staticpath, serversideprops
+
+## 2nd January 2021 - Day 46
+
+> Websockets
+
+- build node chat application with socket.io
+- emit and listening
+- broadcasting
+- using socket in react app
+- socket io and socket rooms
+- built webapp for communications
