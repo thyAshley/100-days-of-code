@@ -15,10 +15,10 @@ The new list consist of testing methodology, dockers, kubernate and is not just 
 
 > - Typescript - [ ✔ ]
 > - Building React and React Native Projects with MERN and PERN - [ 6 ]
-> - Testing in React - [ ⭕ ]
+> - Testing in React - [ ✔ ]
 > - Testing in Node - [ ✔ ]
-> - Typescript with React - [ 5 ]
-> - Typescript with Node & Express - [ 4 ]
+> - Typescript with React - [ 9 ]
+> - Typescript with Node & Express - [ 5 ]
 > - Cypress Testing - [ ✔ ]
 > - Webpack - [ ✔ ]
 > - Sass - [ ✔ ]
@@ -26,12 +26,14 @@ The new list consist of testing methodology, dockers, kubernate and is not just 
 > - Kubernetes - [ ✔ ]
 > - Regex - [ ✔ ]
 > - NestJS - [ ⭕ ]
-> - .NET Framework - [ ⭕ ]
-> - GraphQL - [ ⭕ ]
-> - Socket IO - [ ⭕ ]
+> - GraphQL - [ ✔ ]
+> - Socket IO - [ ✔ ]
 > - React Query - [ ✔ ]
-> - NextJS - [ ⭕ ]
+> - NextJS - [ ✔ ]
+> - Vue - [ ⭕ ]
+> - Golang - [ ⭕ ]
 
+> - .NET Framework - [ ❌ ]
 > - ASP.Net - [ ❌ ]
 
 ## 6th October 2020 - Day 1
@@ -731,3 +733,263 @@ Reset to day one due to missing out too many day, will be clearing my school stu
 - using socket in react app
 - socket io and socket rooms
 - built webapp for communications
+
+> Netlify
+
+- Deployment to netlify
+
+## 4th January 2021 - Day 47
+
+> React
+
+- Link and Navlinks
+
+## 5th January 2021 - Day 48
+
+> Algorithm and data structure
+
+- Learning about Big O Notation and algorithms
+
+## 6th January 2021 - Day 49
+
+> Testing Redux
+
+- Testing Redux Store
+
+> Algorithms and data structure
+
+- building algorithm solutions
+
+## 7th January 2021 - Day 50
+
+> Netflix Clone
+
+- Building a netflix clone
+- working with dot notation with typescript
+
+## 8th January 2021 - Day 51
+
+> Netflix Clone
+
+- Building a netflix clone
+- Firestore and firebase
+
+## 9th January 2021 - Day 52
+
+> Netflix Clone
+
+- Building up components
+
+## 10th January 2021 - Day 53
+
+> Netflix Clone
+
+- Building up components
+- Complete of project
+
+## 11th January 2021 - Day 54
+
+> Linkedin Clone
+
+- Building linkedin clone
+
+## 12th January 2021 - Day 55
+
+> Linkedin Clone
+
+- Finish building a simple linkedin clone
+
+> Vue
+
+- Started learning the basis of Vue
+  - Directives
+  - VueCLI
+
+> React
+
+- Creating frontend for CRM project
+
+## 13th January 2021 - Day 55
+
+> Reddit Clone
+
+- Building backend of reddit clone
+- working with typeorm
+
+## 15th January 2021 - Day 56
+
+> Reddit Clone
+
+- Building the frontend with NextJS
+- Integrating login and register page
+
+## 16th January 2021 - Day 57
+
+> Reddit Clone
+
+- Adding features to reddit clone
+
+## 18th January 2021 - Day 58
+
+> Typescript
+
+- Best practice of typescript with react
+- Redux toolkit
+
+> Reddit Clone
+
+- Adding features to reddit clone
+
+## 19th January 2021 - Day 59
+
+> GoLang
+
+- Learning Go
+- typing, receiver, primitive variables
+- Testing in GO
+
+## 20 January 2021 - Day 60
+
+> Reddit Clone
+
+- Using authentication context
+
+## 21 January 2021 - Day 61
+
+Algorithms
+
+- Learning datastructure and algorithms
+
+## 22 January 2021 - Day 62
+
+Algorithms
+
+- Learning datastructure and algorithms
+
+## 24 January 2021 - Day 63
+
+Clone
+
+- Continue with reddit clone, added uploading features with multer
+
+## 25 January 2021 - Day 64
+
+Reddit Clone
+
+- added post and comment fetching
+
+## 26 January 2021 - Day 65
+
+Reddit Clone
+
+- working on reddit clone
+
+## 27 January 2021 - Day 66
+
+Reddit Clone
+
+- working on reddit clone
+- set and clear timeout for search func
+
+## 29 January 2021 - Day 67
+
+Reddit Clone
+
+- Added infinite loading
+
+## 30 January 2021 - Day 68
+
+Reddit Clone
+
+- Completing reddit clone
+- added SEO and public environmental variables for nextjs
+
+## 31 January 2021 - Day 69
+
+Reddit Clone
+
+- Added github actions for CI/CD
+
+URL Shortener project
+
+- Created a URL shortener project
+
+## 1st February 2021 - Day 70
+
+Algorithm and data structure
+
+- learning algorithms
+
+## 3rd February 2021 - Day 71
+
+Twitter Clone
+
+- Building up twitter clone
+
+## 4th February 2021 - Day 72
+
+Algorithm and data structure
+
+- learning algorithms
+
+## 8th February 2021 - Day 73
+
+Microservices
+
+- Learning how microservices work and event broker
+- building event broker
+
+## 9th February 2021 - Day 74
+
+Algorithms
+
+- learnings sorting algos
+
+Microservices
+
+- Implementation of event broker and microservices
+
+## 15th February 2021 - Day 75
+
+Dockers
+
+- Refresher for Docker and Kubernates
+- setting up of yaml deployment
+
+Microservices
+
+- Using docker with microservices
+
+## 16th February 2021 - Day 76
+
+GoLang
+
+- Learning GoLang Basics
+
+## 20th February 2021 - Day 77
+
+c#
+
+- Learning c# basics
+
+RabbitMQ
+
+- Learning message broker for microservices
+
+## 24th February 2021 - Day 78
+
+c#
+
+- c# basis, operators, overflow, scoping, type conversions
+
+## 25th February 2021 - Day 79
+
+c#
+
+- Learning fundamentals of c#
+
+## 27th February 2021 - Day 80
+
+c#
+
+- Learning fundamentals of c#
