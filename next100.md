@@ -992,4 +992,61 @@ c#
 
 c#
 
-- Learning fundamentals of c#
+- enums, conditionals, loops
+- strings and random class
+- lists and datetime, timespan
+
+## 28th February 2021 - Day 81
+
+c#
+
+- String Builder
+- Procedural Programming
+
+## 1st March - Day 82
+
+c#
+
+- Immediate C#
+- constructors, classes and objects
+- overloading, this keyword
+
+Instagram Clone
+
+- Started a Instagram Clone
+
+## 2nd March - Day 82
+
+c#
+
+- Encapsulation, setter and getters
+- properties
+- Indexer, Dictionary
+- Inheritance, Composition
+- accessors
+
+## 3rd March - Day 83
+
+C#
+
+- Up and down castings
+- boxing and unboxing
+
+## 5th March - Day 84
+
+Algorithms
+
+- Familiarizations
+
+## 7th March - Day 85
+
+Algorithms
+
+- Linked List, Double Linked List
+- Stacks and Queues
+
+## 8th March - Day 86
+
+Algorithms
+
+- Trees
