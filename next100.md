@@ -1050,3 +1050,17 @@ Algorithms
 Algorithms
 
 - Trees
+
+## 9th March - Day 87
+
+Hackerrank
+
+- working on hacker rank challenges
+
+## 10th March - Day 88
+
+- Working on hacker rank and learning about hashtable from scratch
+
+## 13th March - Day 89
+
+- Graph Algorithms and hacker rank
