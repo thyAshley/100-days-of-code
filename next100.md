@@ -33,7 +33,7 @@ The new list consist of testing methodology, dockers, kubernate and is not just 
 > - Vue - [ ⭕ ]
 > - Golang - [ ⭕ ]
 
-> - .NET Framework - [ ❌ ]
+> - .NET Framework - [ ⭕ ]
 > - ASP.Net - [ ❌ ]
 
 ## 6th October 2020 - Day 1
@@ -1064,3 +1064,26 @@ Hackerrank
 ## 13th March - Day 89
 
 - Graph Algorithms and hacker rank
+
+## 15th March - Day 90
+
+- Working on algorithm and hacker rank
+
+## 16th March - Day 91
+
+- Working on algorithm and hacker rank
+
+## 17th March - Day 92
+
+- Working on algorithm and hacker rank
+
+## 18th March - Day 93
+
+- Working on algorithm and hacker rank
+- working on mySQL hackerrank
+- Dynamic Programming
+
+## 20th March - Day 94
+
+- Dynamic Programming and practicinbg algorithms
+- Memoization and Tabulation
