@@ -1087,3 +1087,27 @@ Hackerrank
 
 - Dynamic Programming and practicinbg algorithms
 - Memoization and Tabulation
+
+## 21st March - Day 95
+
+- hacker rank and algorithms
+
+## 22nd March - Day 96
+
+- hacker rank and algorithms
+
+## 23rd March - Day 97
+
+- hacker rank and algorithms
+
+## 24thd March - Day 98
+
+- hacker rank and algorithms
+
+## 25th March - Day 99
+
+- hacker rank and algorithms
+
+## 26th March - Day 100
+
+- React and NextJS recap
